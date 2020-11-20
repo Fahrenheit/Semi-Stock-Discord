@@ -1,7 +1,12 @@
-.attachButtonPlay-3iJ0mf{
-    color: 
+/*Blurple Additions*/ 
+  .attachButtonPlay-3iJ0mf{
+    color: #7289DA
    }
-
+/*Pin icon*/
+   .iconBadge-qZ4Ksk{
+    background-color: #7289DA
+    }
+    
 /* Personal fix for horizontal bar*/
   .circleButtonMask-2VNJsN{
     margin-left: -5px
@@ -12,8 +17,6 @@
       height: 40px;
       margin-top: -15px;
    }
-
-
 
 /* CSS SNIPPETS BY OTHER USERS*/  
 
