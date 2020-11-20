@@ -3,14 +3,14 @@
    .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
    .numberBadge-2s8kKX, /* Noti amount */
    .iconBadge-qZ4Ksk, /* Pin mark */
-   .attachButtonPlay-3iJ0mf /* Blurple attach icon */ 
    {
      background-color: #7289DA !important;
    }
    
    .icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
    .circleIconButton-jET_ig, /* Server discovery, create/join */
-   .strikethrough-1n4ekb /* Strikethrough on mute, deafen */
+   .strikethrough-1n4ekb, /* Strikethrough on mute, deafen */
+   .attachButtonPlay-3iJ0mf /* Blurple attach icon */ 
    {
      color: #7289DA;
    }
