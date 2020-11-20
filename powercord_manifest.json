@@ -1,0 +1,9 @@
+{
+    "name": "Semi-Stock Discord WIP",
+    "description": "My current semi stock Discord theme and it has Powercord UI element support)",
+    "version": "1.0",
+    "author": "Fahrenheight#0001",
+    "theme": "semi-stock.css",
+    "consent": "false",
+    "license": "MIT"
+}
