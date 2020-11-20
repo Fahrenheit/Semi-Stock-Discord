@@ -1,22 +1,49 @@
 /*Blurple Additions*/ 
-  .attachButtonPlay-3iJ0mf, .strikethrough-1n4ekb{
-    color: #7289DA
+
+   .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
+   .numberBadge-2s8kKX, /* Noti amount */
+   .iconBadge-qZ4Ksk, /* Pin mark */
+   .attachButtonPlay-3iJ0mf /* Blurple attach icon */ 
+   {
+     background-color: #7289DA !important;
    }
-/*Pin icon*/
-   .iconBadge-qZ4Ksk{
-    background-color: #7289DA
-    }
-    
-/* Personal fix for horizontal bar*/
-  .circleButtonMask-2VNJsN{
+   
+   .icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
+   .circleIconButton-jET_ig, /* Server discovery, create/join */
+   .strikethrough-1n4ekb /* Strikethrough on mute, deafen */
+   {
+     color: #7289DA;
+   }
+   
+   .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am { /* Add hovers for 'create a new server', discovery */
+     background-color: #7289DA;
+     color:#7289DA;
+   }
+   
+   .item-2hkk8m { /* Server pills */
+     background-color:#7289DA !important;
+   }
+
+  /*  .powercord-spotify {
+      background-color: #202325;
+   }
+   */
+
+  .circleButtonMask-2VNJsN{ /* Personal fix for horizontal bar */
     margin-left: -5px
    }
   
-  /* Personal CSS fix for shrinking member list*/
-  .membersGroup-v9BXpm, .container-2ax-kl{
+  
+  .membersGroup-v9BXpm, .container-2ax-kl{ /* Personal CSS fix for shrinking member list*/
       height: 40px;
       margin-top: -15px;
    }
+
+
+
+
+
+
 
 /* CSS SNIPPETS BY OTHER USERS*/  
 
