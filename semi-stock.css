@@ -24,24 +24,29 @@
      background-color:#7289DA !important;
    }
 
-   .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before{/*Spotify controls WIP*/
+   .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before 
+   {/*Spotify controls WIP*/
     color: #7289DA ;
-  }
-   .spotify-seek-bar-progress {/*Spotify progress bar color*/
-    background-color: #7289DA !important;
- }
+   }
+   .spotify-seek-bar-progress /*Spotify progress bar color*/
+   {
+   background-color: #7289DA !important;
+   }
  
-  /*  .powercord-spotify {
+  /*  .powercord-spotify /* Optional, change powercord music background to match bottom bar
+   {
       background-color: #202325;
    }
    */
 
-  .circleButtonMask-2VNJsN{ /* Personal fix for horizontal bar */
-    margin-left: -6.5px
+  .circleButtonMask-2VNJsN /* Personal fix for horizontal bar */
+   { 
+  margin-left: -6.5px
    }
   
   
-  .membersGroup-v9BXpm, .container-2ax-kl{ /* Personal CSS fix for shrinking member list*/
+  .membersGroup-v9BXpm
+   { /* Personal CSS fix for shrinking member list*/
       height: 40px;
       margin-top: -15px;
    }
