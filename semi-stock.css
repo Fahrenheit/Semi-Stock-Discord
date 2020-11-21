@@ -24,6 +24,13 @@
      background-color:#7289DA !important;
    }
 
+   .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before{/*Spotify controls WIP*/
+    color: #7289DA ;
+  }
+   .spotify-seek-bar-progress {/*Spotify progress bar color*/
+    background-color: #7289DA !important;
+ }
+ 
   /*  .powercord-spotify {
       background-color: #202325;
    }
