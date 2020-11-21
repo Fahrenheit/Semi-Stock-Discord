@@ -2,7 +2,7 @@
 
    .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
    .numberBadge-2s8kKX, /* Noti amount */
-   .iconBadge-qZ4Ksk, /* Pin mark */
+   .iconBadge-qZ4Ksk /* Pin mark */
    {
      background-color: #7289DA !important;
    }
@@ -30,7 +30,7 @@
    */
 
   .circleButtonMask-2VNJsN{ /* Personal fix for horizontal bar */
-    margin-left: -5px
+    margin-left: -6.5px
    }
   
   
