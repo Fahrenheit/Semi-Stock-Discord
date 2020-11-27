@@ -15,21 +15,19 @@
      color: #7289DA;
    }
    
-   .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am { /* Add hovers for 'create a new server', discovery */
+   .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am {/* Add hovers for 'create a new server', discovery */
      background-color: #7289DA;
      color:#7289DA;
    }
    
-   .item-2hkk8m { /* Server pills */
+   .item-2hkk8m {/* Server pills */
      background-color:#7289DA !important;
    }
 
-   .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before 
-   {/*Spotify controls WIP*/
+   .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before { /*Spotify controls WIP*/
     color: #7289DA ;
    }
-   .spotify-seek-bar-progress /*Spotify progress bar color*/
-   {
+   .spotify-seek-bar-progress {/*Spotify progress bar color*/
    background-color: #7289DA !important;
    }
  
@@ -39,17 +37,24 @@
    }
    */
 
-  .circleButtonMask-2VNJsN /* Personal fix for horizontal bar */
-   { 
+  .circleButtonMask-2VNJsN {/* Personal fix for horizontal bar */ 
   margin-left: -6.5px
    }
   
   
-  .membersGroup-v9BXpm
-   { /* Personal CSS fix for shrinking member list*/
+  .membersGroup-v9BXpm {/* Personal CSS fix for shrinking member list*/
       height: 40px;
       margin-top: -15px;
    }
+
+   
+.unread-2lAfLh {/* Blurple channel unread marker */
+ background-color: #7289da;
+  width: 3.3px;
+  height: 27px;
+  margin-top: -15px;
+  border-radius: 0px 4px 4px 0;
+}
 
 
 
@@ -561,3 +566,16 @@
   
       display: none;
   }
+
+/**
+ * Snippet from #css-snippets applied the 23 Nov 2020 at 12:32:18
+ * Created by Chromus#4761 (511758610720751626)
+ * Snippet ID: 780483965189750844
+ */
+ .toolbar-1t6TWx {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 24px;
+  padding: 5px;
+}
+/** 780483965189750844 */
+
