@@ -70,6 +70,9 @@
     margin-top: 5px;
     margin-right: 20px;
 }
+   .base-3dtUhz {/* Slightly move channel list over by 5px */
+    left: 5px !important;
+}
 /* Optional, change powercord music background to match bottom bar*/
    /*.powercord-spotify {/* Optional, change powercord music background to match bottom bar
     background-color: #202325;
