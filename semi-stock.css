@@ -30,56 +30,53 @@
    .spotify-seek-bar-progress {/*Spotify progress bar color*/
    background-color: #7289DA !important;
    }
- 
-  /*  .powercord-spotify /* Optional, change powercord music background to match bottom bar
-   {
-      background-color: #202325;
-   }
-   */
 
-  .circleButtonMask-2VNJsN {/* Personal fix for horizontal bar */ 
-  margin-left: -6.5px
+   .circleButtonMask-2VNJsN {/* Personal fix for horizontal bar */ 
+    margin-left: -6.5px
    }
-  
   
   .membersGroup-v9BXpm {/* Personal CSS fix for shrinking member list*/
-      height: 40px;
-      margin-top: -15px;
+    height: 40px;
+    margin-top: -15px;
    }
+  
+   .unread-2lAfLh {/* Blurple channel unread marker */
+    background-color: #7289da;
+    width: 3.3px;
+    height: 27px;
+    margin-top: -15px;
+    border-radius: 0px 4px 4px 0;
+  }
 
-   
-.unread-2lAfLh {/* Blurple channel unread marker */
- background-color: #7289da;
-  width: 3.3px;
-  height: 27px;
-  margin-top: -15px;
-  border-radius: 0px 4px 4px 0;
+/*Bottombar matching CSS*/
+
+   .jumpToPresentBar-G1R9s6 {/* Blurred Grey Jump to Present Bar */
+    background-color: rgba(32, 35, 37, 0.6);
+    backdrop-filter: blur(5px);
 }
 
+   .newMessagesBar-265mhP {/* Blurred Grey New Messsages Bar */
+    background-color: rgba(32, 35, 37, 0.6);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    margin-top: 5px;
+}
+   .powercord-spotify {/* Optional, change powercord music background to match bottom bar*/
+    background-color: #202325;
+}
+   
 
 
 
+/* CSS SNIPPETS BY OTHER USERS THAT I'VE MODIFIED*/  
 
-
-
-/* CSS SNIPPETS BY OTHER USERS*/  
-
-  /** Bottom bar tweaks
-   * Snippet from #css-snippets applied the 20 Nov 2020 at 15:02:35
-   * Created by TaiAurori#6781 (334469240394481667)
-   * Snippet ID: 779187317973712927
-   */
+  /** Bottom bar tweaked*/
   .form-2fGMdU {
     z-index: 1;
     width: calc(100vw - 275px);
   }
-  /** 779187317973712927 */
   
-  /**
-   * Snippet from #css-snippets applied the Oct 15, 2020 at 10:31:23 PM
-   * Created by Tropical#4355 (254362351170617345)
-   * Snippet ID: 763158982105104404
-   */
+ /*~~~~~~~~~~~*/
   .connectedAccount-36nQx7 {
       display:flex;
       flex-wrap:wrap;
@@ -108,7 +105,7 @@
       white-space:nowrap;
   }
   
-  
+  /*~~~~~~~~~~~*/
   /*Spin like an album cover*/
   .powercord-spotify .avatarWrapper-2yR4wp {
     
@@ -126,26 +123,8 @@
           transform:rotate(360deg);
       }
   }
-  
-  /**
-   * Snippet from #css-snippets applied the Oct 16, 2020 at 12:25:28 AM
-   * Created by Ein#3092 (307356893053976576)
-   * Snippet ID: 766502245889605642
-   */
-  /** Blurple channel unread marker **/
-  .unread-3zKkbm {
-      background-color: #7289da;
-      width: 4px;
-      height: 28px;
-      margin-top: -15px;
-      border-radius: 0px 4px 4px 0;
-  }
-  /** 766502245889605642 */
-  /**
-   * Snippet from #css-snippets applied the Oct 2, 2020 at 4:21:43 PM
-   * Created by snapperito#0001 (431883840483491850)
-   * Snippet ID: 761416946435883008
-   */
+
+/*~~~~~~~~~~~*/
   .ping-2NgC8E {
       transform: scale(1.7);
       margin-left: 5px;
@@ -162,15 +141,8 @@
   .rtcConnectionStatusConnected-VRZDjy {
       margin-left: 5px;
   }
-  /** 761416946435883008 */
-  
-  /** 761265443025453077 */
-  
-  /**
-   * Snippet from #css-snippets applied the Oct 2, 2020 at 4:32:30 PM
-   * Created by Leeprky#1234 (224524143482241035)
-   * Snippet ID: 760824503571316746
-   */
+
+/*~~~~~~~~~~~*/
   /* Compact Status Menu */
   
   .status-1fhblQ, .description-2L932D {
@@ -200,23 +172,13 @@
   .customText-tY5LJn {
       font-size: 15px;
   }
-  /** 760824503571316746 */
   
-  /**
-   * Snippet from #css-snippets applied the Oct 2, 2020 at 4:32:36 PM
-   * Created by jayden#1000 (307679776728940555)
-   * Snippet ID: 760693382502023170
-   */
+/*~~~~~~~~~~~*/
   .profileBadgePartner-SjK6L2 {
       background-image: url(https://cdn.discordapp.com/attachments/753471696866115677/760692516235378718/partner_badge.svg) !important;
   }
-  /** 760693382502023170 */
-  
-  /**
-   * Snippet from #css-snippets applied the Oct 2, 2020 at 4:36:24 PM
-   * Created by PoorPockets McNewHold#1984 (277173061973835778)
-   * Snippet ID: 757138357888352287
-   */
+
+/*~~~~~~~~~~~*/
   /* Compressed Search Bar */
   .search-2oPWTC .searchBar-3dMhjb {
       width: 30px;
@@ -234,13 +196,8 @@
   .search-2oPWTC .icon-38sknP {
       cursor: pointer;
   }
-  /** 757138357888352287 */
-  
-  /**
-   * Snippet from #css-snippets applied the Oct 2, 2020 at 4:36:45 PM
-   * Created by LuckFire#4800 (399416615742996480)
-   * Snippet ID: 757106245944606800
-   */
+
+/*~~~~~~~~~~~*/
   [aria-label="Online"]::after {
      content: 'ONLINE';
      font-weight: bold;
@@ -265,13 +222,8 @@
      padding-left: 5px;
      color: #747F8D
   }
-  /** 757106245944606800 */
   
-  /**
-   * Snippet from #css-snippets applied the Oct 2, 2020 at 4:39:10 PM
-   * Created by Chromus#4761 (511758610720751626)
-   * Snippet ID: 755796868948164658
-   */
+/*~~~~~~~~~~~*/
   /*Profile Modal*/
    .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
      z-index: 1;
@@ -283,22 +235,13 @@
      z-index: 1;
      background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
   }
-  /**
-   * Snippet from #css-snippets applied the Oct 2, 2020 at 4:42:37 PM
-   * Created by MulverineX#0001 (178551656714076161)
-   * Snippet ID: 755217496608473251
-   */
+
+/*~~~~~~~~~~~*/
   #private-channels-2 {
     display: none;
   }
-  /** 755217496608473251 */
   
-  
-  /**
-   * Snippet from #css-snippets applied the Oct 2, 2020 at 4:44:00 PM
-   * Created by LuckFire#4800 (399416615742996480)
-   * Snippet ID: 755166410824482937
-   */
+/*~~~~~~~~~~~*/
   .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
      border-radius: 15px 15px 0 0 !important
   }
@@ -309,55 +252,28 @@
      padding-right: 5px
   }
   
-  /**
-   * Snippet from #css-snippets applied the Sep 13, 2020 at 7:06:26 PM
-   * Created by Deleted User#0000 (456226577798135808)
-   * Snippet ID: 739928888964022335
-   */
+/*~~~~~~~~~~~*/
   .mention-1f5kbO{
       display:none;
   }
-  /** 739928888964022335 */
-  
-  /**
-   * Snippet from #css-snippets applied the Sep 13, 2020 at 7:06:40 PM
-   * Created by Deleted User#0000 (456226577798135808)
-   * Snippet ID: 739823600420519959
-   */
+
+/*~~~~~~~~~~~*/
   .unread-1xRYoj{
     display: none;
   }
-  /** 739823600420519959 */
   
-  /**
-   * Snippet from #css-snippets applied the Sep 17, 2020 at 3:06:49 PM
-   * Created by Rikimbili#2002 (210478817544896512)
-   * Snippet ID: 756217722874101830
-   */
-  .buttons-3JBrkn [aria-label="Send a gift"] {
+/*~~~~~~~~~~~*/
+  .buttons-3JBrkn [aria-label="Send a gift"] { /* Fuck the gift button*/
     display: none;  
   }
   #private-channels-1 {
     display: none;
   }
-  /** 756217722874101830 */
-  
-  
-  /**
-   * Snippet from #css-snippets applied the Sep 13, 2020 at 7:07:15 PM
-   * Created by TXJ#5664 (189238841054461952)
-   * Snippet ID: 720679626170433660
-   */
+
+/*~~~~~~~~~~~*/
   div[aria-label="Explore Public Servers"]{ display: none; }
-  /** 720679626170433660 */
-  
-  
-  
-  /**
-   * Snippet from #css-snippets applied the Oct 5, 2020 at 6:58:15 PM
-   * Created by Skullbite#5245 (158750488563679232)
-   * Snippet ID: 762667788841779210
-   */
+
+/*~~~~~~~~~~~*/
   .px-10SIf7.botTag-2WPJ74 {
       height: 15px;
       padding: 0 4px;
@@ -380,13 +296,8 @@
       visibility: hidden;
       position: relative;
   }
-  /** 762667788841779210 */
-  
-  /**
-   * Snippet from #css-snippets applied the Oct 12, 2020 at 12:02:19 AM
-   * Created by botato#6883 (440990343899643943)
-   * Snippet ID: 764468913953701892
-   */
+
+/*~~~~~~~~~~~*/
   svg.slider-TkfMQL svg {
     display: none;
   }
@@ -394,13 +305,8 @@
   .container-3auIfb:not([style*="125"]) {
     background-color: #7289da !important;
   }
-  /** 764468913953701892 */
-  
-  /**
-   * Snippet from #css-snippets applied the Oct 15, 2020 at 6:38:58 PM
-   * Created by ezist#7571 (632082248954282014)
-   * Snippet ID: 766361519453110282
-   */
+
+/*~~~~~~~~~~~*/
   .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
       filter: blur(5px);
       transition: filter 0.5s
@@ -408,27 +314,14 @@
   .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child):hover .colorHeaderPrimary-26Jzh- {
       filter: blur(0px);
   }
-  /** 766361519453110282 */
-  /**
-   * Snippet from #css-snippets applied the Oct 3, 2020 at 3:11:05 AM
-   * Created by MulverineX#0001 (178551656714076161)
-   * Snippet ID: 761818920905998356
-   */
+
+/*~~~~~~~~~~~*/
   img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
   img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] { 
     filter: invert(1); 
   }
-  /**
-   * Snippet from #css-snippets applied the 22 Oct 2020 at 07:36:42
-   * Created by Kanin#0001 (173237945149423619)
-   * Snippet ID: 768557018591658016
-   */
-  
-  /**
-   * Snippet from #css-snippets applied the 22 Oct 2020 at 07:37:00
-   * Created by Chromus#4761 (511758610720751626)
-   * Snippet ID: 768619643170324491
-   */
+
+/*~~~~~~~~~~~*/
   /* Cool Member List */
   :root {
       --hover-animation-speed: 0.48s;
@@ -499,13 +392,8 @@
     left: 25px;
     margin-left: -25px
   }
-  /** 768619643170324491 */
-  
-  /**
-   * Snippet from #css-snippets applied the 22 Oct 2020 at 08:37:15
-   * Created by あかね・バタフライ#2356 (383990559070486529)
-   * Snippet ID: 768809246464016384
-   */
+
+/*~~~~~~~~~~~*/
   .sidebarRegion-VFTUkN {
     flex-grow: 0;
   }
@@ -513,19 +401,12 @@
   .contentColumnDefault-1VQkGM {
     max-width: calc(100% - 60px);
   }
-  /** 768809246464016384 */
-  
-  /*Help Button*/
-  
-  [class|=toolbar] a {
+/*~~~~~~~~~~~*/
+  [class|=toolbar] a {/*Help Button*/
     display: none;
   }
   
-  /**
-   * Snippet from #css-snippets applied the 5 Nov 2020 at 18:30:45
-   * Created by oni#4000 (305071855943942146)
-   * Snippet ID: 774032815976742912
-   */
+/*~~~~~~~~~~~*/
   .titleBar-AC4pGV>*:nth-child(2) {
   background-color: #0C0C0C;
   transition: background-color 1s ease-out;
@@ -548,13 +429,7 @@
   background-color: #FDB100;
   }
   
-  /**
-   * Snippet from #css-snippets applied the 18 Nov 2020 at 00:25:31
-   * Created by Creation's#0001 (209830981060788225)
-   * Snippet ID: 778414515971686431
-   */
-  /* Hiding */
-  
+/*~~~~~~~~~~~*/
   .clearStatusIcon-3-MDNF,
   .scrollerBase-289Jih > [id*="status-picker-"] + .separator-2I32lJ,
   .statusItem-33LqPf > .status-1fhblQ,
@@ -567,15 +442,25 @@
       display: none;
   }
 
-/**
- * Snippet from #css-snippets applied the 23 Nov 2020 at 12:32:18
- * Created by Chromus#4761 (511758610720751626)
- * Snippet ID: 780483965189750844
- */
+/*~~~~~~~~~~~*/
  .toolbar-1t6TWx {
   background-color: rgba(0,0,0,0.2);
   border-radius: 24px;
   padding: 5px;
 }
-/** 780483965189750844 */
+
+.newMessagesBar-265mhP {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
+.jumpToPresentBar-G1R9s6 {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 900px;
+  margin-bottom: 10px;
+  border-bottom: ;
+}
+
+
 
