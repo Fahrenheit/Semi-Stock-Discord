@@ -50,22 +50,30 @@
 
 /*Bottombar matching CSS*/
 
+   .toolbar-1t6TWx { /* Add a border around the toolbar*/
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 24px;
+    padding: 5px;
+}
+
    .jumpToPresentBar-G1R9s6 {/* Blurred Grey Jump to Present Bar */
-    background-color: rgba(32, 35, 37, 0.6);
+    background-color: rgba(0,0,0,0.2);
     backdrop-filter: blur(5px);
+    margin-right: 20px;
+    border-radius: 10px;
 }
 
    .newMessagesBar-265mhP {/* Blurred Grey New Messsages Bar */
-    background-color: rgba(32, 35, 37, 0.6);
-    border-radius: 50px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
     backdrop-filter: blur(5px);
     margin-top: 5px;
+    margin-right: 20px;
 }
-   .powercord-spotify {/* Optional, change powercord music background to match bottom bar*/
+/* Optional, change powercord music background to match bottom bar*/
+   /*.powercord-spotify {/* Optional, change powercord music background to match bottom bar
     background-color: #202325;
-}
-   
-
+}*/
 
 
 /* CSS SNIPPETS BY OTHER USERS THAT I'VE MODIFIED*/  
@@ -441,26 +449,3 @@
   
       display: none;
   }
-
-/*~~~~~~~~~~~*/
- .toolbar-1t6TWx {
-  background-color: rgba(0,0,0,0.2);
-  border-radius: 24px;
-  padding: 5px;
-}
-
-.newMessagesBar-265mhP {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 50px;
-  margin-top: 5px;
-}
-
-.jumpToPresentBar-G1R9s6 {
-  background-color: rgba(0,0,0,0.2);
-  border-radius: 900px;
-  margin-bottom: 10px;
-  border-bottom: ;
-}
-
-
-
