@@ -95,13 +95,22 @@
  .members-1998pB, .members-1998pB>div {/*Spacing for user list*/
    margin-top: 5px
 }
-  .membersWrap-2h-GB4 {/*Curves for user list*/
+ .membersWrap-2h-GB4 {/*Curves for user list*/
    border-radius: 15px 0px 0px 0px;
 }
 
-  .addMembersButton-1eG9YC{ /*Fixes new useradd button*/
+ .addMembersButton-1eG9YC{ /*Fixes new useradd button*/
    margin-left: -7px;
 }
+
+ .container-3baos1{ /*Adds 5px of space on the bottom right to match the left*/
+   padding-left: 15px;
+}
+
+ .usernameContainer-1fp4nu{ /* Fixes username container cutoff */
+   width: 90px;
+}
+
     
 
 /* Optional, change powercord music background to match bottom bar*/
