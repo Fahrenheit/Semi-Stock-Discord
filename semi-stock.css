@@ -2,97 +2,104 @@
 
 /*Blurple Additions*/ 
 
-   .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
-   .numberBadge-2s8kKX, /* Noti amount */
-   .iconBadge-qZ4Ksk /* Pin mark */
+ .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
+ .numberBadge-2s8kKX, /* Noti amount */
+ .iconBadge-qZ4Ksk /* Pin mark */
    {
-     background-color: #7289DA !important;
+   background-color: #7289DA !important;
    }
    
-   .icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
-   .circleIconButton-jET_ig, /* Server discovery, create/join */
-   .strikethrough-1n4ekb, /* Strikethrough on mute, deafen */
-   .attachButtonPlay-3iJ0mf,
-   .strikethrough-3Wiitd /* Blurple attach icon */ 
+ .icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
+ .circleIconButton-jET_ig, /* Server discovery, create/join */
+ .strikethrough-1n4ekb, /* Strikethrough on mute, deafen */
+ .attachButtonPlay-3iJ0mf,
+ .strikethrough-3Wiitd /* Blurple attach icon */ 
    {
-     color: #7289DA;
+ color: #7289DA;
    }
    
-   .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am {/* Add hovers for 'create a new server', discovery */
-     background-color: #7289DA;
-     color:#7289DA;
+ .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am {/* Add hovers for 'create a new server', discovery */
+   background-color: #7289DA;
+   color:#7289DA;
    }
    
-   .item-2hkk8m {/* Server pills */
-     background-color:#7289DA !important;
+ .item-2hkk8m {/* Server pills */
+   background-color:#7289DA !important;
    }
 
-   .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before { /*Spotify controls WIP*/
-    color: #7289DA ;
+ .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before { /*Spotify controls WIP*/
+   color: #7289DA ;
    }
-   .spotify-seek-bar-progress {/*Spotify progress bar color*/
+ .spotify-seek-bar-progress {/*Spotify progress bar color*/
    background-color: #7289DA !important;
    }
 
-   .circleButtonMask-2VNJsN {/* Personal fix for horizontal bar */ 
-    margin-left: -6.5px
+ .circleButtonMask-2VNJsN {/* Personal fix for horizontal bar */ 
+   margin-left: -6.5px
    }
   
-  .membersGroup-v9BXpm {/* Personal CSS fix for shrinking member list*/
-    height: 40px;
-    margin-top: -17px;
+ .membersGroup-v9BXpm {/* Personal CSS fix for shrinking member list*/
+   height: 40px;
+   margin-top: -17px;
    }
   
-   .unread-2lAfLh {/* Blurple channel unread marker */
-    background-color: #7289da;
-    width: 3.3px;
-    height: 27px;
-    margin-top: -15px;
-    border-radius: 0px 4px 4px 0;
+ .unread-2lAfLh {/* Blurple channel unread marker */
+   background-color: #7289da;
+   width: 3.3px;
+   height: 27px;
+   margin-top: -15px;
+   border-radius: 0px 4px 4px 0;
   }
 
 /*Bottombar matching CSS*/
 
-   .toolbar-1t6TWx { /* Add a border around the toolbar*/
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 24px;
-    padding: 5px;
+ .toolbar-1t6TWx { /* Add a border around the toolbar*/
+   background-color: rgba(0,0,0,0.2);
+   border-radius: 15px;
+   padding: 5px;
 }
 
-   .jumpToPresentBar-G1R9s6 {/* Blurred Grey Jump to Present Bar */
-    background-color: rgba(0,0,0,0.2);
-    backdrop-filter: blur(5px);
-    margin-right: 20px;
-    border-radius: 10px;
+ .jumpToPresentBar-G1R9s6 {/* Blurred Grey Jump to Present Bar */
+   background-color: rgba(0,0,0,0.2);
+   backdrop-filter: blur(5px);
+   margin-right: 20px;
+   border-radius: 10px;
 }
 
-   .newMessagesBar-265mhP {/* Blurred Grey New Messsages Bar */
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
-    margin-top: 5px;
-    margin-right: 20px;
+ .newMessagesBar-265mhP {/* Blurred Grey New Messsages Bar */
+   background-color: rgba(0,0,0,0.2);
+   border-radius: 10px;
+   backdrop-filter: blur(5px);
+   margin-top: 5px;
+   margin-right: 20px;
 }
 
-   .container-1r6BKw.themed-ANHk51{
-    border-radius: 0px 25px 25px 0px;
-    border-spacing: 15px;
-    padding-right: 8px;
-    border-right-style: none;
-    border-right-color: #202225;
-     /*border-top-left-radius: 50px 20px;*/     
+ .container-1r6BKw.themed-ANHk51{ /* Thank you Luckfire for helping my dumbass fix this.*/
+   border-radius: 0px 15px 15px 0px;
+   border-spacing: 15px;
+   margin-left: -8px;
+   border-right-style: none;
+   border-right-color: #202225;
+}
+     
+ .container-1r6BKw.themed-ANHk51 .children-19S4PO{
+   padding-left: 8px;
 }
          
-   .tutorialContainer-SGrQ1h{
-    background-color: rgba(0,0,0,0.0) !important;
-    position: relative;
+ .tutorialContainer-SGrQ1h{
+   background-color: rgba(0,0,0,0.0) !important;
+   position: relative;
 }
     
-   .members-1998pB, .members-1998pB>div {
-    margin-top: 5px
+ .members-1998pB, .members-1998pB>div {/*Spacing for user list*/
+   margin-top: 5px
 }
-   .membersWrap-2h-GB4 {
-       border-radius: 15px 0px 0px 0px;
+  .membersWrap-2h-GB4 {/*Curves for user list*/
+   border-radius: 15px 0px 0px 0px;
+}
+
+  .addMembersButton-1eG9YC{ /*Fixes new useradd button*/
+   margin-left: -5px;
 }
     
 
