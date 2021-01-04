@@ -513,3 +513,11 @@
   width: 9px;
   height: 9px;
 }
+
+/*~~~~~~~~~~~*/
+/* Rounded context menu (Courtesy of wathhr#1459) */
+
+​.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 15px; }
+.submenu-2-ysNh.menu-3sdvDG { border-radius: 15px; }
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
+.colorDefault-2K3EoJ { border-radius: 15px; }
