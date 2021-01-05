@@ -53,6 +53,14 @@
 
 /*Bottombar matching CSS*/
 
+.notice-3bPHh-, .colorDefault-22HBa0{/* Voice disconnected popup theming */
+   background-color: rgba(114,137,2181);
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   border-radius: 10px;
+}
+
  .toolbar-1t6TWx { /* Add a border around the toolbar*/
    background-color: rgba(0,0,0,0.2);
    border-radius: 15px;
@@ -74,10 +82,14 @@
    margin-right: 20px;
 }
 
+ .searchBar-3dMhjb{/* Rounds tiny search bar */
+   border-radius: 6px;
+}
+
  .container-1r6BKw.themed-ANHk51{ /* Thank you Luckfire for helping my dumbass fix this.*/
    border-radius: 0px 15px 15px 0px;
    border-spacing: 15px;
-   margin-left: -8px;
+   margin-left: -5px;
    border-right-style: none;
    border-right-color: #202225;
 }
@@ -86,16 +98,16 @@
    padding-left: 8px;
 }
          
- .tutorialContainer-SGrQ1h{
+ .tutorialContainer-SGrQ1h{ /* Fix server add button */ 
 	 margin-top: 15px;
    position: relative !important;
  	 display: flex;
 }
     
- .members-1998pB, .members-1998pB>div {/*Spacing for user list*/
+ .members-1998pB, .members-1998pB>div { /*Spacing for user list*/
    margin-top: 5px
 }
- .membersWrap-2h-GB4 {/*Curves for user list*/
+ .membersWrap-2h-GB4 { /*Curves for user list*/
    border-radius: 15px 0px 0px 0px;
 }
 
@@ -519,5 +531,4 @@
 
 ​.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 15px; }
 .submenu-2-ysNh.menu-3sdvDG { border-radius: 15px; }
-.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
 .colorDefault-2K3EoJ { border-radius: 15px; }
