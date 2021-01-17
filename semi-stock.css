@@ -532,3 +532,31 @@
 ​.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 15px; }
 .submenu-2-ysNh.menu-3sdvDG { border-radius: 15px; }
 .colorDefault-2K3EoJ { border-radius: 15px; }
+
+/*~~~~~~~~~~~*/
+ /* Message bubbles (enable if you want) */
+/*
+.message-2qnXI6 {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.message-2qnXI6:hover {
+  background-color: rgba(0,0,0,0.0);
+}
+.message-2qnXI6:not(.groupStart-23k01U) {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 1px 4px, 2px 5px, 3px 6px, 4px 7px, 8px 8px, calc(100% - 8px) 8px, calc(100% - 4px) 7px, calc(100% - 3px) 6px, calc(100% - 2px) 5px, calc(100% - 1px) 4px);
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+
+}
+.contents-2mQqc9 {
+  margin-top: 8px;
+
+}
+.message-2qnXI6:not(.groupStart-23k01U) .buttonContainer-DHceWr {
+  margin-top: 30px;
+
+}*/
