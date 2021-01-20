@@ -2,528 +2,567 @@
 
 /*Blurple Additions*/ 
 
- .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
- .numberBadge-2s8kKX, /* Noti amount */
- .iconBadge-qZ4Ksk /* Pin mark */
-   {
-   background-color: #7289DA !important;
-   }
-   
- .icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
- .circleIconButton-jET_ig, /* Server discovery, create/join */
- .strikethrough-1n4ekb, /* Strikethrough on mute, deafen */
- .attachButtonPlay-3iJ0mf,
- .strikethrough-3Wiitd /* Blurple attach icon */ 
-   {
- color: #7289DA;
-   }
-   
- .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am {/* Add hovers for 'create a new server', discovery */
-   background-color: #7289DA;
-   color:#7289DA;
-   }
-   
- .item-2hkk8m {/* Server pills */
-   background-color:#7289DA !important;
-   }
-
- .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before { /*Spotify controls WIP*/
-   color: #7289DA ;
-   }
- .spotify-seek-bar-progress {/*Spotify progress bar color*/
-   background-color: #7289DA !important;
-   }
-
- .circleButtonMask-2VNJsN {/* Personal fix for horizontal bar */ 
-   margin-left: -6.5px
-   }
-  
- .membersGroup-v9BXpm {/* Personal CSS fix for shrinking member list*/
-   height: 40px;
-   margin-top: -17px;
-   }
-  
- .unread-2lAfLh {/* Blurple channel unread marker */
-   background-color: #7289da;
-   width: 3.3px;
-   height: 27px;
-   margin-top: -15px;
-   border-radius: 0px 4px 4px 0;
+.iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
+.numberBadge-2s8kKX, /* Noti amount */
+.iconBadge-qZ4Ksk /* Pin mark */
+  {
+  background-color: #7289DA !important;
   }
+  
+.icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
+.circleIconButton-jET_ig, /* Server discovery, create/join */
+.strikethrough-1n4ekb, /* Strikethrough on mute, deafen */
+.attachButtonPlay-3iJ0mf,
+.strikethrough-3Wiitd /* Blurple attach icon */ 
+  {
+color: #7289DA;
+  }
+  
+.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am {/* Add hovers for 'create a new server', discovery */
+  background-color: #7289DA;
+  color:#7289DA;
+  }
+  
+.item-2hkk8m {/* Server pills */
+  background-color:#7289DA !important;
+  }
+
+.fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before { /*Spotify controls WIP*/
+  color: #7289DA ;
+  }
+.spotify-seek-bar-progress {/*Spotify progress bar color*/
+  background-color: #7289DA !important;
+  }
+
+.circleButtonMask-2VNJsN {/* Personal fix for horizontal bar */ 
+  margin-left: -6.5px
+  }
+ 
+.membersGroup-v9BXpm {/* Personal CSS fix for shrinking member list*/
+  height: 40px;
+  margin-top: -17px;
+  }
+ 
+.unread-2lAfLh {/* Blurple channel unread marker */
+  background-color: #7289da;
+  width: 2.5px;
+  height: 27px;
+  margin-top: -15px;
+  border-radius: 0px 4px 4px 0;
+ }
 
 /*Bottombar matching CSS*/
 
 .notice-3bPHh-, .colorDefault-22HBa0{/* Voice disconnected popup theming */
-   background-color: rgba(114,137,2181);
-   margin-right: 5px;
-   margin-left: 5px;
-   margin-bottom: 5px;
-   border-radius: 10px;
+  background-color: rgba(114,137,2181);
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
 }
 
- .toolbar-1t6TWx { /* Add a border around the toolbar*/
-   background-color: rgba(0,0,0,0.2);
-   border-radius: 15px;
-   padding: 5px;
+.toolbar-1t6TWx { /* Add a border around the toolbar*/
+  background-color: var(--background-secondary);;
+  border-radius: 25px;
+  padding: 5px;
+  
 }
 
- .jumpToPresentBar-G1R9s6 {/* Blurred Grey Jump to Present Bar */
-   background-color: rgba(0,0,0,0.2);
-   backdrop-filter: blur(5px);
-   margin-right: 20px;
-   border-radius: 10px;
+
+.jumpToPresentBar-G1R9s6 {/* Blurred Grey Jump to Present Bar */
+  background-color: rgba(0,0,0,0.2);
+  backdrop-filter: blur(5px);
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
- .newMessagesBar-265mhP {/* Blurred Grey New Messsages Bar */
-   background-color: rgba(0,0,0,0.2);
-   border-radius: 10px;
-   backdrop-filter: blur(5px);
-   margin-top: 5px;
-   margin-right: 20px;
+.newMessagesBar-265mhP {/* Blurred Grey New Messsages Bar */
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  margin-top: 5px;
+  margin-right: 20px;
 }
 
- .searchBar-3dMhjb{/* Rounds tiny search bar */
-   border-radius: 6px;
+.searchBar-3dMhjb{/* Rounds tiny search bar */
+  border-radius: 6px;
 }
 
- .container-1r6BKw.themed-ANHk51{ /* Thank you Luckfire for helping my dumbass fix this.*/
-   border-radius: 0px 15px 15px 0px;
-   border-spacing: 15px;
-   margin-left: -5px;
-   border-right-style: none;
-   border-right-color: #202225;
-}
-     
- .container-1r6BKw.themed-ANHk51 .children-19S4PO{
-   padding-left: 8px;
-}
-         
- .tutorialContainer-SGrQ1h{ /* Fix server add button */ 
-	 margin-top: 15px;
-   position: relative !important;
- 	 display: flex;
+.container-1r6BKw.themed-ANHk51{ /* Thank you Luckfire for helping my dumbass fix this.*/
+  border-radius: 0px 15px 0px 0px;
+  border-spacing: 15px;
+  margin-left: -54px;
+  padding-left: 50px;
+  border-right-style: none;
+  border-right-color: #202225;
+  position: relative;
+  z-index: 0;
 }
     
- .members-1998pB, .members-1998pB>div { /*Spacing for user list*/
-   margin-top: 5px
+.container-1r6BKw.themed-ANHk51 .children-19S4PO{
+  padding-left: 8px;
 }
- .membersWrap-2h-GB4 { /*Curves for user list*/
-   border-radius: 15px 0px 0px 0px;
+        
+.tutorialContainer-SGrQ1h{ /* Fix server add button */ 
+  margin-top: -5px;
+  position: relative !important;
+  display: flex;
+  background: rgba(0,0,0,0.0) !important;	
 }
-
- .addMembersButton-1eG9YC{ /*Fixes new useradd button*/
-   margin-left: -7px;
-}
-
- .container-3baos1{ /*Adds 5px of space on the bottom right to match the left*/
-   padding-left: 15px;
-}
-
- .usernameContainer-1fp4nu{ /* Fixes username container cutoff */
-   width: 90px;
-}
-
-    
-
-/* Optional, change powercord music background to match bottom bar*/
-   /*.powercord-spotify {/* Optional, change powercord music background to match bottom bar
-    background-color: #202325;
+/*.circleIcon-LvPL6c{
+color: #ffffff;
 }*/
+   
+.members-1998pB, .members-1998pB>div { /*Spacing for user list*/
+  margin-top: 5px
+}
+.membersWrap-2h-GB4 { /*Curves for user list*/
+  border-radius: 0px 0px 0px 0px;
+}
+
+.addMembersButton-1eG9YC{ /*Fixes new useradd button*/
+  margin-left: -7px;
+}
+
+.container-3baos1{ /*Adds 5px of space on the bottom right to match the left*/
+  padding-left: 15px;
+}
+
+.usernameContainer-1fp4nu{ /* Fixes username container cutoff */
+  width: 90px;
+}
+
+
+ .wrapper-1Rf91z::after { /* Add a Server tab background hider */
+  display:none;}
+
+
+.membersWrap-2h-GB4{ /* Move userlist to higher*/
+  margin-top: -53px !important;
+	position: relative;
+}
+
+.content-yTz4x3::before{
+  display: none;
+}
+
+
+.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs { /* Seach header curve */
+  border-radius: 15px 0px 0px 0px;
+}
+
+
+ /*WORK ON ME*/
+/*.scroller-2TZvBN {
+  background-color: #ffffff;
+}*/
+
+/*fvcking with bc shit mac titlebar*/
+/*.typeMacOS-3EmCyP, .titleBar-AC4pGV, .focused-3B0xkw{
+  position: fixed;
+  z-index: 1;
+	display: transparent;
+}*/
+ 
+.powercord-spotify {/* Optional, change powercord music background to match bottom bar*/ 
+  background-color: var(--background-tertiary);
+}
 
 
 /* CSS SNIPPETS BY OTHER USERS THAT I'VE MODIFIED*/  
 
-  /** Bottom bar tweaked*/
-  .form-2fGMdU {
-    z-index: 1;
-    width: calc(100vw - 275px);
-  }
-  
+ /** Bottom bar tweaked*/
+ .form-2fGMdU {
+   z-index: 1;
+   width: calc(100vw - 275px);
+ }
+ 
+/*~~~~~~~~~~~*/
+ .connectedAccount-36nQx7 {
+     display:flex;
+     flex-wrap:wrap;
+     height:auto;
+ }
+ 
+ .connectedAccount-36nQx7 .connectedAccountIcon-3P3V6F {
+     width:24px;
+     height:24px;
+ }
+ .connectedAccount-36nQx7 .anchor-3Z-8Bb {
+     width:100%;
+     display:block;
+     position:relative;
+     overflow:hidden;
+     text-overflow:ellipsis;
+     line-height:normal;
+ }
+ .connectedAccount-36nQx7 .anchor-3Z-8Bb svg {
+     display:none;
+ }
+ 
+ .connectedAccount-36nQx7 .anchor-3Z-8Bb:after {
+     content:attr(href);
+     width:100%;
+     white-space:nowrap;
+ }
+ 
  /*~~~~~~~~~~~*/
-  .connectedAccount-36nQx7 {
-      display:flex;
-      flex-wrap:wrap;
-      height:auto;
-  }
-  
-  .connectedAccount-36nQx7 .connectedAccountIcon-3P3V6F {
-      width:24px;
-      height:24px;
-  }
-  .connectedAccount-36nQx7 .anchor-3Z-8Bb {
-      width:100%;
-      display:block;
-      position:relative;
-      overflow:hidden;
-      text-overflow:ellipsis;
-      line-height:normal;
-  }
-  .connectedAccount-36nQx7 .anchor-3Z-8Bb svg {
-      display:none;
-  }
-  
-  .connectedAccount-36nQx7 .anchor-3Z-8Bb:after {
-      content:attr(href);
-      width:100%;
-      white-space:nowrap;
-  }
-  
-  /*~~~~~~~~~~~*/
-  /*Spin like an album cover*/
-  .powercord-spotify .avatarWrapper-2yR4wp {
-    
-      animation-name: spin;
-      animation-duration: 4000ms;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-  }
-  
-  @keyframes spin {
-      from {
-          transform:rotate(0deg);
-      }
-      to {
-          transform:rotate(360deg);
-      }
-  }
+ /*Spin like an album cover*/
+ .powercord-spotify .avatarWrapper-2yR4wp {
+   
+     animation-name: spin;
+     animation-duration: 4000ms;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+ 
+ @keyframes spin {
+     from {
+         transform:rotate(0deg);
+     }
+     to {
+         transform:rotate(360deg);
+     }
+ }
 
 /*~~~~~~~~~~~*/
-  .ping-2NgC8E {
-      transform: scale(1.7);
-      margin-left: 5px;
-      margin-top: 11px;
-      margin-bottom: 0;
-      height: 20px;
-  }
-  
-  .channel-1TmDQ6 {
-      margin-left: 30px;
-      margin-top: -9px;
-  }
-  
-  .rtcConnectionStatusConnected-VRZDjy {
-      margin-left: 5px;
-  }
+ .ping-2NgC8E {
+     transform: scale(1.7);
+     margin-left: 5px;
+     margin-top: 11px;
+     margin-bottom: 0;
+     height: 20px;
+ }
+ 
+ .channel-1TmDQ6 {
+     margin-left: 30px;
+     margin-top: -9px;
+ }
+ 
+ .rtcConnectionStatusConnected-VRZDjy {
+     margin-left: 5px;
+ }
 
 /*~~~~~~~~~~~*/
-  /* Compact Status Menu */
-  
-  .status-1fhblQ, .description-2L932D {
-      display: none;
-  }
-  .separator-2I32lJ {
-      display: none;
-  }
-  .mask-1qbNWk.icon-1IxfJ2 {
-      --status-icon-size: 75%;
-      height: var(--status-icon-size); 
-      width: var(--status-icon-size);
-      margin-left: 33%;
-  }
-  .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
-      display: grid;
-      align-items: center;
-      grid-template-columns: auto auto auto auto;
-      visibility: visible;
-  }
-  .item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
-      grid-column: 1/5;
-  }
-  .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
-      transition: opacity 0.15s linear 0s;
-  }
-  .customText-tY5LJn {
-      font-size: 15px;
-  }
-  
+ /* Compact Status Menu */
+ 
+ .status-1fhblQ, .description-2L932D {
+     display: none;
+ }
+ .separator-2I32lJ {
+     display: none;
+ }
+ .mask-1qbNWk.icon-1IxfJ2 {
+     --status-icon-size: 75%;
+     height: var(--status-icon-size); 
+     width: var(--status-icon-size);
+     margin-left: 33%;
+ }
+ .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+     display: grid;
+     align-items: center;
+     grid-template-columns: auto auto auto auto;
+     visibility: visible;
+ }
+ .item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+     grid-column: 1/5;
+ }
+ .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+     transition: opacity 0.15s linear 0s;
+ }
+ .customText-tY5LJn {
+     font-size: 15px;
+ }
+ 
 /*~~~~~~~~~~~*/
-  .profileBadgePartner-SjK6L2 {
-      background-image: url(https://cdn.discordapp.com/attachments/753471696866115677/760692516235378718/partner_badge.svg) !important;
-  }
+ .profileBadgePartner-SjK6L2 {
+     background-image: url(https://cdn.discordapp.com/attachments/753471696866115677/760692516235378718/partner_badge.svg) !important;
+ }
 
 /*~~~~~~~~~~~*/
-  /* Compressed Search Bar */
-  .search-2oPWTC .searchBar-3dMhjb {
-      width: 30px;
-      transition-duration: 300ms;
-  }
-  
-  .search-2oPWTC .searchBar-3dMhjb:hover {
-      width: 200px;
-  }
-  
-  .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {
-      width: 244px !important;
-  }
-  
-  .search-2oPWTC .icon-38sknP {
-      cursor: pointer;
-  }
+ /* Compressed Search Bar */
+ .search-2oPWTC .searchBar-3dMhjb {
+     width: 30px;
+     transition-duration: 300ms;
+ }
+ 
+ .search-2oPWTC .searchBar-3dMhjb:hover {
+     width: 200px;
+ }
+ 
+ .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {
+     width: 244px !important;
+ }
+ 
+ .search-2oPWTC .icon-38sknP {
+     cursor: pointer;
+ }
 
 /*~~~~~~~~~~~*/
-  [aria-label="Online"]::after {
-     content: 'ONLINE';
-     font-weight: bold;
-     padding-left: 5px;
-     color: #43B581
-  }
-  [aria-label="Do Not Disturb"]::after {
-     content: 'DO NOT DISTURB';
-     font-weight: bold;
-     padding-left: 5px;
-     color: #F04747
-  }
-  [aria-label="Idle"]::after {
-     content: 'IDLE';
-     font-weight: bold;
-     padding-left: 5px;
-     color: #FFB740
-  }
-  [aria-label="Offline"]::after {
-     content: 'OFFLINE/INVISIBLE';
-     font-weight: bold;
-     padding-left: 5px;
-     color: #747F8D
-  }
-  
+ [aria-label="Online"]::after {
+    content: 'ONLINE';
+    font-weight: bold;
+    padding-left: 5px;
+    color: #43B581
+ }
+ [aria-label="Do Not Disturb"]::after {
+    content: 'DO NOT DISTURB';
+    font-weight: bold;
+    padding-left: 5px;
+    color: #F04747
+ }
+ [aria-label="Idle"]::after {
+    content: 'IDLE';
+    font-weight: bold;
+    padding-left: 5px;
+    color: #FFB740
+ }
+ [aria-label="Offline"]::after {
+    content: 'OFFLINE/INVISIBLE';
+    font-weight: bold;
+    padding-left: 5px;
+    color: #747F8D
+ }
+ 
 /*~~~~~~~~~~~*/
-  /*Profile Modal*/
-   .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-     z-index: 1;
-     background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
-  }
-  
-  
-  .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-     z-index: 1;
-     background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
-  }
+ /*Profile Modal*/
+  .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+    z-index: 1;
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
+ }
+ 
+ 
+ .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+    z-index: 1;
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
+ }
 
 /*~~~~~~~~~~~*/
-  #private-channels-2 {
-    display: none;
-  }
-  
+ #private-channels-2 {
+   display: none;
+ }
+ 
 /*~~~~~~~~~~~*/
-  .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
-     border-radius: 15px 15px 0 0 !important
-  }
-  
-  .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+ .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+    border-radius: 15px 15px 0 0 !important
+ }
+ 
+ .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+    position: relative;
+    left: 5px;
+    padding-right: 5px
+ }
+ 
+/*~~~~~~~~~~~*/
+ .mention-1f5kbO{
+     display:none;
+ }
+
+/*~~~~~~~~~~~*/
+ .unread-1xRYoj{
+   display: none;
+ }
+ 
+/*~~~~~~~~~~~*/
+ .buttons-3JBrkn [aria-label="Send a gift"] { /* Fuck the gift button*/
+   display: none;  
+ }
+ #private-channels-1 {
+   display: none;
+ }
+
+/*~~~~~~~~~~~*/
+ div[aria-label="Explore Public Servers"]{ display: none; }
+
+/*~~~~~~~~~~~*/
+ .px-10SIf7.botTag-2WPJ74 {
+     height: 15px;
+     padding: 0 4px;
+     margin-top: 1px;
+     padding-right: 0px;
+     border-radius: 3px;
+ }
+ 
+ span.botText-1526X_::before {
+     font-family: "Font Awesome 5 Pro" !important;
+     content: "\f544";
+     font-weight: 900;
+     visibility: visible;
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+ 
+ span.botText-1526X_ {
+     visibility: hidden;
      position: relative;
-     left: 5px;
-     padding-right: 5px
+ }
+
+/*~~~~~~~~~~~*/
+ svg.slider-TkfMQL svg {
+   display: none;
+ }
+ 
+ .container-3auIfb:not([style*="125"]) {
+   background-color: #7289da !important;
+ }
+
+/*~~~~~~~~~~~*/
+ .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
+     filter: blur(5px);
+     transition: filter 0.5s
+ }
+ .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child):hover .colorHeaderPrimary-26Jzh- {
+     filter: blur(0px);
+ }
+
+/*~~~~~~~~~~~*/
+ img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
+ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] { 
+   filter: invert(1); 
+ }
+
+/*~~~~~~~~~~~*/
+ /* Cool Member List */
+ :root {
+     --hover-animation-speed: 0.48s;
+     --seperator-color: var(--background-accent);
   }
   
-/*~~~~~~~~~~~*/
-  .mention-1f5kbO{
-      display:none;
+  .membersWrap-2h-GB4 {
+     min-width: unset;
+     width: 65px;
+     justify-content: right;
   }
-
-/*~~~~~~~~~~~*/
-  .unread-1xRYoj{
-    display: none;
-  }
-  
-/*~~~~~~~~~~~*/
-  .buttons-3JBrkn [aria-label="Send a gift"] { /* Fuck the gift button*/
-    display: none;  
-  }
-  #private-channels-1 {
-    display: none;
-  }
-
-/*~~~~~~~~~~~*/
-  div[aria-label="Explore Public Servers"]{ display: none; }
-
-/*~~~~~~~~~~~*/
-  .px-10SIf7.botTag-2WPJ74 {
-      height: 15px;
-      padding: 0 4px;
-      margin-top: 1px;
-      padding-right: 0px;
-      border-radius: 3px;
-  }
-  
-  span.botText-1526X_::before {
-      font-family: "Font Awesome 5 Pro" !important;
-      content: "\f544";
-      font-weight: 900;
-      visibility: visible;
-      position: absolute;
-      top: 0;
-      left: 0;
-  }
-  
-  span.botText-1526X_ {
-      visibility: hidden;
-      position: relative;
-  }
-
-/*~~~~~~~~~~~*/
-  svg.slider-TkfMQL svg {
-    display: none;
-  }
-  
-  .container-3auIfb:not([style*="125"]) {
-    background-color: #7289da !important;
-  }
-
-/*~~~~~~~~~~~*/
-  .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
-      filter: blur(5px);
-      transition: filter 0.5s
-  }
-  .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child):hover .colorHeaderPrimary-26Jzh- {
-      filter: blur(0px);
-  }
-
-/*~~~~~~~~~~~*/
-  img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
-  img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] { 
-    filter: invert(1); 
-  }
-
-/*~~~~~~~~~~~*/
-  /* Cool Member List */
-  :root {
-      --hover-animation-speed: 0.48s;
-      --seperator-color: var(--background-accent);
-   }
-   
-   .membersWrap-2h-GB4 {
-      min-width: unset;
-      width: 65px;
-      justify-content: right;
-   }
-   
-   .members-1998pB {
-      transition: transform var(--hover-animation-speed);
-   }
-   
-   .membersWrap-2h-GB4:hover .members-1998pB {
-      transform: translateX(-190px);
-   }
-   
-   .membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
-      content: '';
-      width: 30px;
-      height: 2px;
-      border-radius: px;
-      background: unset;
-      background-color: var(--seperator-color);
-      position: absolute;
-      left: -36px;
-      top: 29px;
-      margin-left: 0px;
-   }
-   
-   .membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
-      background-color: unset;
-      margin-left: 0px;
-      transition: margin-left var(--hover-animation-speed);
-   }
-   
-   .membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
-      margin-left: 8px;
-   }
-   
-   .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-      transform: translateX(-5px);
-   }
-   
-   .membersWrap-2h-GB4 .membersGroup-v9BXpm {
-      cursor: default;
-      transform: translateX(45px);
-      transition: transform var(--hover-animation-speed);
-      overflow: visible;
-   }
   
   .members-1998pB {
-    border-radius: 15px 0 0 0 !important;
+     transition: transform var(--hover-animation-speed);
   }
-  .membersWrap-2h-GB4, .members-1998pB {
-    left: 6px;
-    margin-right: -5px
+  
+  .membersWrap-2h-GB4:hover .members-1998pB {
+     transform: translateX(-190px);
   }
-  .chat-3bRxxu {
-    background: var(--background-tertiary);
+  
+  .membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
+     content: '';
+     width: 30px;
+     height: 2px;
+     border-radius: 0px;
+     background: unset;
+     background-color: var(--seperator-color);
+     position: absolute;
+     left: -36px;
+     top: 29px;
+     margin-left: 0px;
   }
-  .chatContent-a9vAAp {
-    background-color: var(--background-primary);
-    border-radius: 0 15px 0 0 !important;
-    left: 25px;
-    margin-left: -25px
+  
+  .membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+     background-color: unset;
+     margin-left: 0px;
+     transition: margin-left var(--hover-animation-speed);
   }
+  
+  .membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+     margin-left: 8px;
+  }
+  
+  .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+     transform: translateX(-5px);
+  }
+  
+  .membersWrap-2h-GB4 .membersGroup-v9BXpm {
+     cursor: default;
+     transform: translateX(45px);
+     transition: transform var(--hover-animation-speed);
+     overflow: visible;
+  }
+ 
+ .members-1998pB {
+   border-radius: 15px 0px 0px 0px !important;
+   border-left; 10px;
+ }
+ .membersWrap-2h-GB4, .members-1998pB {
+   left: 6px;
+   margin-right: -5px
+ }
+ .chat-3bRxxu {
+   background: var(--background-tertiary);
+ }
+ .chatContent-a9vAAp {
+   background-color: var(--background-primary);
+   border-radius: 0 15px 0 0 !important;
+   left: 25px;
+   margin-left: -25px
+ }
 
 /*~~~~~~~~~~~*/
-  .sidebarRegion-VFTUkN {
-    flex-grow: 0;
-  }
-  
-  .contentColumnDefault-1VQkGM {
-    max-width: calc(100% - 60px);
-  }
+ .sidebarRegion-VFTUkN {
+   flex-grow: 0;
+ }
+ 
+ .contentColumnDefault-1VQkGM {
+   max-width: calc(100% - 60px);
+ }
 /*~~~~~~~~~~~*/
-  [class|=toolbar] a {/*Help Button*/
-    display: none;
-  }
-  
+ [class|=toolbar] a {/*Help Button*/
+   display: none;
+ }
+ 
 /*~~~~~~~~~~~*/
-  .titleBar-AC4pGV>*:nth-child(2) {
-  background-color: #0C0C0C;
-  transition: background-color 1s ease-out;
-  }
-  .titleBar-AC4pGV>*:nth-child(3) {
-  background-color: #0C0C0C;
-  transition: background-color 1s ease-out;
-  }
-  .titleBar-AC4pGV>*:nth-child(4) {
-  background-color: #0C0C0C;
-  transition: background-color 1s ease-out;
-  }
-  .titleBar-AC4pGV>*:nth-child(2):hover {
-  background-color: #AA2832;
-  }
-  .titleBar-AC4pGV>*:nth-child(3):hover {
-  background-color: #056295;
-  }
-  .titleBar-AC4pGV>*:nth-child(4):hover {
-  background-color: #FDB100;
-  }
-  
+ .titleBar-AC4pGV>*:nth-child(2) {
+ background-color: #0C0C0C;
+ transition: background-color 1s ease-out;
+ }
+ .titleBar-AC4pGV>*:nth-child(3) {
+ background-color: #0C0C0C;
+ transition: background-color 1s ease-out;
+ }
+ .titleBar-AC4pGV>*:nth-child(4) {
+ background-color: #0C0C0C;
+ transition: background-color 1s ease-out;
+ }
+ .titleBar-AC4pGV>*:nth-child(2):hover {
+ background-color: #AA2832;
+ }
+ .titleBar-AC4pGV>*:nth-child(3):hover {
+ background-color: #056295;
+ }
+ .titleBar-AC4pGV>*:nth-child(4):hover {
+ background-color: #FDB100;
+ }
+ 
 /*~~~~~~~~~~~*/
-  .clearStatusIcon-3-MDNF,
-  .scrollerBase-289Jih > [id*="status-picker-"] + .separator-2I32lJ,
-  .statusItem-33LqPf > .status-1fhblQ,
-  .statusItem-33LqPf > .description-2L932D,
-  .statusItem-33LqPf > .separator-2I32lJ,
-  .statusItem-33LqPf > .customText-tY5LJn,
-  .statusItem-33LqPf > .clearStatusIcon-3-MDNF,
-  .tutorialContainer-SGrQ1h + div {
-  
-      display: none;
-  }
+ .clearStatusIcon-3-MDNF,
+ .scrollerBase-289Jih > [id*="status-picker-"] + .separator-2I32lJ,
+ .statusItem-33LqPf > .status-1fhblQ,
+ .statusItem-33LqPf > .description-2L932D,
+ .statusItem-33LqPf > .separator-2I32lJ,
+ .statusItem-33LqPf > .customText-tY5LJn,
+ .statusItem-33LqPf > .clearStatusIcon-3-MDNF,
+ .tutorialContainer-SGrQ1h + div {
+ 
+     display: none;
+ }
 
 /*~~~~~~~~~~~*/
 /* Makes roles look like how they do on mobile - Thanks LuckFire for the CSS*/
 
 .role-2irmRk {
-  background-color: var(--background-tertiary);
-  border-radius: 4px;
-  border: none;
-  padding: 0 5px 0 8px;
-  height: 25px;
+ background-color: var(--background-tertiary);
+ border-radius: 4px;
+ border: none;
+ padding: 0 5px 0 8px;
+ height: 25px;
 }
 .role-2irmRk.actionButton-VzECiy {
-  background-color: var(--background-tertiary);
-  padding-left: 7px;
-  padding-right: 7px;
+ background-color: var(--background-tertiary);
+ padding-left: 7px;
+ padding-right: 7px;
 }
 .role-2irmRk .roleCircle-3xAZ1j {
-  margin-right: 6px;
-  width: 9px;
-  height: 9px;
+ margin-right: 6px;
+ width: 9px;
+ height: 9px;
 }
 
 /*~~~~~~~~~~~*/
@@ -534,29 +573,29 @@
 .colorDefault-2K3EoJ { border-radius: 15px; }
 
 /*~~~~~~~~~~~*/
- /* Message bubbles (enable if you want) */
+/* Message bubbles (enable if you want) */
 /*
 .message-2qnXI6 {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+ background-color: rgba(0,0,0,0.1);
+ border-radius: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
 
 }
 .message-2qnXI6:hover {
-  background-color: rgba(0,0,0,0.0);
+ background-color: rgba(0,0,0,0.0);
 }
 .message-2qnXI6:not(.groupStart-23k01U) {
-  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 1px 4px, 2px 5px, 3px 6px, 4px 7px, 8px 8px, calc(100% - 8px) 8px, calc(100% - 4px) 7px, calc(100% - 3px) 6px, calc(100% - 2px) 5px, calc(100% - 1px) 4px);
-  border-radius: 0 0 8px 8px;
-  margin-top: -8px;
+ clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 1px 4px, 2px 5px, 3px 6px, 4px 7px, 8px 8px, calc(100% - 8px) 8px, calc(100% - 4px) 7px, calc(100% - 3px) 6px, calc(100% - 2px) 5px, calc(100% - 1px) 4px);
+ border-radius: 0 0 8px 8px;
+ margin-top: -8px;
 
 }
 .contents-2mQqc9 {
-  margin-top: 8px;
+ margin-top: 8px;
 
 }
 .message-2qnXI6:not(.groupStart-23k01U) .buttonContainer-DHceWr {
-  margin-top: 30px;
+ margin-top: 30px;
 
 }*/
