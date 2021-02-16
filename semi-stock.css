@@ -147,11 +147,6 @@ color: #ffffff;
 }
 
 
-.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs { /* Seach header curve */
-  border-radius: 15px 0px 0px 0px;
-}
-
-
  /*WORK ON ME*/
 /*.scroller-2TZvBN {
   background-color: #ffffff;
@@ -208,7 +203,7 @@ color: #ffffff;
  
  /*~~~~~~~~~~~*/
  /*Spin like an album cover*/
- .powercord-spotify .avatarWrapper-2yR4wp {
+ /*.powercord-spotify .avatarWrapper-2yR4wp {
    
      animation-name: spin;
      animation-duration: 4000ms;
@@ -223,10 +218,10 @@ color: #ffffff;
      to {
          transform:rotate(360deg);
      }
- }
+ }*/
 
 /*~~~~~~~~~~~*/
- .ping-2NgC8E {
+/* .ping-2NgC8E {
      transform: scale(1.7);
      margin-left: 5px;
      margin-top: 11px;
@@ -241,7 +236,7 @@ color: #ffffff;
  
  .rtcConnectionStatusConnected-VRZDjy {
      margin-left: 5px;
- }
+ }*/
 
 /*~~~~~~~~~~~*/
  /* Compact Status Menu */
@@ -275,13 +270,13 @@ color: #ffffff;
  }
  
 /*~~~~~~~~~~~*/
- .profileBadgePartner-SjK6L2 {
+/* .profileBadgePartner-SjK6L2 {
      background-image: url(https://cdn.discordapp.com/attachments/753471696866115677/760692516235378718/partner_badge.svg) !important;
  }
-
+*/
 /*~~~~~~~~~~~*/
  /* Compressed Search Bar */
- .search-2oPWTC .searchBar-3dMhjb {
+/* .search-2oPWTC .searchBar-3dMhjb {
      width: 30px;
      transition-duration: 300ms;
  }
@@ -297,7 +292,7 @@ color: #ffffff;
  .search-2oPWTC .icon-38sknP {
      cursor: pointer;
  }
-
+*/
 /*~~~~~~~~~~~*/
  [aria-label="Online"]::after {
     content: 'ONLINE';
@@ -326,7 +321,7 @@ color: #ffffff;
  
 /*~~~~~~~~~~~*/
  /*Profile Modal*/
-  .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+/*  .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
     z-index: 1;
     background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
  }
@@ -336,7 +331,7 @@ color: #ffffff;
     z-index: 1;
     background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
  }
-
+*/
 /*~~~~~~~~~~~*/
  #private-channels-2 {
    display: none;
@@ -399,22 +394,22 @@ color: #ffffff;
  }
 
 /*~~~~~~~~~~~*/
- svg.slider-TkfMQL svg {
+/* svg.slider-TkfMQL svg {
    display: none;
  }
  
  .container-3auIfb:not([style*="125"]) {
    background-color: #7289da !important;
- }
+ }*/
 
 /*~~~~~~~~~~~*/
- .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
+/* .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
      filter: blur(5px);
      transition: filter 0.5s
  }
  .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child):hover .colorHeaderPrimary-26Jzh- {
      filter: blur(0px);
- }
+ }*/
 
 /*~~~~~~~~~~~*/
  img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
@@ -501,7 +496,7 @@ color: #ffffff;
  }
  
  .contentColumnDefault-1VQkGM {
-   max-width: calc(100% - 60px);
+   max-width: calc(85% - 15px);
  }
 /*~~~~~~~~~~~*/
  [class|=toolbar] a {/*Help Button*/
@@ -509,7 +504,7 @@ color: #ffffff;
  }
  
 /*~~~~~~~~~~~*/
- .titleBar-AC4pGV>*:nth-child(2) {
+ /*.titleBar-AC4pGV>*:nth-child(2) {
  background-color: #0C0C0C;
  transition: background-color 1s ease-out;
  }
@@ -530,7 +525,7 @@ color: #ffffff;
  .titleBar-AC4pGV>*:nth-child(4):hover {
  background-color: #FDB100;
  }
- 
+ */
 /*~~~~~~~~~~~*/
  .clearStatusIcon-3-MDNF,
  .scrollerBase-289Jih > [id*="status-picker-"] + .separator-2I32lJ,
@@ -599,3 +594,28 @@ color: #ffffff;
  margin-top: 30px;
 
 }*/
+
+
+.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs { /* Seach header curve */
+  border-radius: 15px 0px 0px 0px;
+}
+/**
+
+/*~~~~~~~~~~~*/
+.search-36MZv- {order: 1;}
+.searchBar-3dMhjb {
+    width: 28px;
+    transition: 0.6s ease-in-out;
+    color:#fff;
+    background: none;
+}
+.focused-31_ccS .searchBar-3dMhjb,
+.open-6_Y_aH .searchBar-3dMhjb,
+.searchBar-3dMhjb:hover {
+    width: 240px;
+    background: var(--background-tertiary);
+}
+.icon-3cZ1F_{height: 24px;width: 24px;color:var(--interactive-normal);}
+.iconContainer-O4O2CN{bottom: 3px;}
+.search-36MZv-{margin-left: 0px;}
+/*~~~~~~~~~~~*/
