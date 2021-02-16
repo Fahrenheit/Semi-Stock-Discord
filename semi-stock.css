@@ -84,10 +84,6 @@ color: #7289DA;
   margin-right: 20px;
 }
 
-.searchBar-3dMhjb{/* Rounds tiny search bar */
-  border-radius: 6px;
-}
-
 .container-1r6BKw.themed-ANHk51{ /* Thank you Luckfire for helping my dumbass fix this.*/
   border-radius: 0px 15px 0px 0px;
   border-spacing: 15px;
@@ -146,22 +142,44 @@ color: #ffffff;
   display: none;
 }
 
+ /*~~~~~~MODIFY macOS TITLE BAR FOR HORIZONTAL SERVER LIST~~~~~*/
+
+.platform-osx .app-1q1i1E {
+  margin-top: -31px;
+/*margin-left: 5px;*/
+}
+
+.platform-osx .wrapper-1Rf91z {
+ z-index: 3001;
+ margin-left: 20px;
+}
+
+.macButtons-2MuSAC{
+  margin-left: -22px;
+  margin-top: 14px;
+ transform: rotate(90deg);  
+}
+
+
+
 
  /*WORK ON ME*/
+
 /*.scroller-2TZvBN {
   background-color: #ffffff;
 }*/
 
-/*fvcking with bc shit mac titlebar*/
-/*.typeMacOS-3EmCyP, .titleBar-AC4pGV, .focused-3B0xkw{
-  position: fixed;
-  z-index: 1;
-	display: transparent;
+/* Rounds tiny search bar */
+
+/*.searchBar-3dMhjb{
+  border-radius: 6px;
 }*/
- 
-.powercord-spotify {/* Optional, change powercord music background to match bottom bar*/ 
+
+/* Optional, change powercord music background to match bottom bar*/ 
+
+/*.powercord-spotify {
   background-color: var(--background-tertiary);
-}
+}*/
 
 
 /* CSS SNIPPETS BY OTHER USERS THAT I'VE MODIFIED*/  
@@ -201,43 +219,6 @@ color: #ffffff;
      white-space:nowrap;
  }
  
- /*~~~~~~~~~~~*/
- /*Spin like an album cover*/
- /*.powercord-spotify .avatarWrapper-2yR4wp {
-   
-     animation-name: spin;
-     animation-duration: 4000ms;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
- }
- 
- @keyframes spin {
-     from {
-         transform:rotate(0deg);
-     }
-     to {
-         transform:rotate(360deg);
-     }
- }*/
-
-/*~~~~~~~~~~~*/
-/* .ping-2NgC8E {
-     transform: scale(1.7);
-     margin-left: 5px;
-     margin-top: 11px;
-     margin-bottom: 0;
-     height: 20px;
- }
- 
- .channel-1TmDQ6 {
-     margin-left: 30px;
-     margin-top: -9px;
- }
- 
- .rtcConnectionStatusConnected-VRZDjy {
-     margin-left: 5px;
- }*/
-
 /*~~~~~~~~~~~*/
  /* Compact Status Menu */
  
@@ -268,31 +249,7 @@ color: #ffffff;
  .customText-tY5LJn {
      font-size: 15px;
  }
- 
-/*~~~~~~~~~~~*/
-/* .profileBadgePartner-SjK6L2 {
-     background-image: url(https://cdn.discordapp.com/attachments/753471696866115677/760692516235378718/partner_badge.svg) !important;
- }
-*/
-/*~~~~~~~~~~~*/
- /* Compressed Search Bar */
-/* .search-2oPWTC .searchBar-3dMhjb {
-     width: 30px;
-     transition-duration: 300ms;
- }
- 
- .search-2oPWTC .searchBar-3dMhjb:hover {
-     width: 200px;
- }
- 
- .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {
-     width: 244px !important;
- }
- 
- .search-2oPWTC .icon-38sknP {
-     cursor: pointer;
- }
-*/
+
 /*~~~~~~~~~~~*/
  [aria-label="Online"]::after {
     content: 'ONLINE';
@@ -318,20 +275,7 @@ color: #ffffff;
     padding-left: 5px;
     color: #747F8D
  }
- 
-/*~~~~~~~~~~~*/
- /*Profile Modal*/
-/*  .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-    z-index: 1;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
- }
- 
- 
- .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-    z-index: 1;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
- }
-*/
+
 /*~~~~~~~~~~~*/
  #private-channels-2 {
    display: none;
@@ -392,24 +336,6 @@ color: #ffffff;
      visibility: hidden;
      position: relative;
  }
-
-/*~~~~~~~~~~~*/
-/* svg.slider-TkfMQL svg {
-   display: none;
- }
- 
- .container-3auIfb:not([style*="125"]) {
-   background-color: #7289da !important;
- }*/
-
-/*~~~~~~~~~~~*/
-/* .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
-     filter: blur(5px);
-     transition: filter 0.5s
- }
- .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child):hover .colorHeaderPrimary-26Jzh- {
-     filter: blur(0px);
- }*/
 
 /*~~~~~~~~~~~*/
  img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
@@ -502,30 +428,7 @@ color: #ffffff;
  [class|=toolbar] a {/*Help Button*/
    display: none;
  }
- 
-/*~~~~~~~~~~~*/
- /*.titleBar-AC4pGV>*:nth-child(2) {
- background-color: #0C0C0C;
- transition: background-color 1s ease-out;
- }
- .titleBar-AC4pGV>*:nth-child(3) {
- background-color: #0C0C0C;
- transition: background-color 1s ease-out;
- }
- .titleBar-AC4pGV>*:nth-child(4) {
- background-color: #0C0C0C;
- transition: background-color 1s ease-out;
- }
- .titleBar-AC4pGV>*:nth-child(2):hover {
- background-color: #AA2832;
- }
- .titleBar-AC4pGV>*:nth-child(3):hover {
- background-color: #056295;
- }
- .titleBar-AC4pGV>*:nth-child(4):hover {
- background-color: #FDB100;
- }
- */
+
 /*~~~~~~~~~~~*/
  .clearStatusIcon-3-MDNF,
  .scrollerBase-289Jih > [id*="status-picker-"] + .separator-2I32lJ,
@@ -568,6 +471,59 @@ color: #ffffff;
 .colorDefault-2K3EoJ { border-radius: 15px; }
 
 /*~~~~~~~~~~~*/
+/* Seach header curve */
+
+.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs {
+  border-radius: 15px 0px 0px 0px;
+}
+
+
+/*~~~~~~~~~~~*/
+/* Cleaner Search Tab */
+.search-36MZv- {order: 1;}
+.searchBar-3dMhjb {
+    width: 28px;
+    transition: 0.6s ease-in-out;
+    color:#fff;
+    background: none;
+}
+.focused-31_ccS .searchBar-3dMhjb,
+.open-6_Y_aH .searchBar-3dMhjb,
+.searchBar-3dMhjb:hover {
+    width: 240px;
+    background: var(--background-tertiary);
+}
+.icon-3cZ1F_{height: 24px;width: 24px;color:var(--interactive-normal);}
+.iconContainer-O4O2CN{bottom: 3px;}
+.search-36MZv-{margin-left: 0px;}
+/*~~~~~~~~~~~*/
+/**
+
+/*~~~~~~~~~~~*/
+ /*.titleBar-AC4pGV>*:nth-child(2) {
+ background-color: #0C0C0C;
+ transition: background-color 1s ease-out;
+ }
+ .titleBar-AC4pGV>*:nth-child(3) {
+ background-color: #0C0C0C;
+ transition: background-color 1s ease-out;
+ }
+ .titleBar-AC4pGV>*:nth-child(4) {
+ background-color: #0C0C0C;
+ transition: background-color 1s ease-out;
+ }
+ .titleBar-AC4pGV>*:nth-child(2):hover {
+ background-color: #AA2832;
+ }
+ .titleBar-AC4pGV>*:nth-child(3):hover {
+ background-color: #056295;
+ }
+ .titleBar-AC4pGV>*:nth-child(4):hover {
+ background-color: #FDB100;
+ }
+ */
+
+/*~~~~~~~~~~~*/
 /* Message bubbles (enable if you want) */
 /*
 .message-2qnXI6 {
@@ -595,27 +551,96 @@ color: #ffffff;
 
 }*/
 
-
-.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs { /* Seach header curve */
-  border-radius: 15px 0px 0px 0px;
-}
-/**
+/*~~~~~~~~~~~*/
+/* svg.slider-TkfMQL svg {
+   display: none;
+ }
+ 
+ .container-3auIfb:not([style*="125"]) {
+   background-color: #7289da !important;
+ }*/
 
 /*~~~~~~~~~~~*/
-.search-36MZv- {order: 1;}
-.searchBar-3dMhjb {
-    width: 28px;
-    transition: 0.6s ease-in-out;
-    color:#fff;
-    background: none;
-}
-.focused-31_ccS .searchBar-3dMhjb,
-.open-6_Y_aH .searchBar-3dMhjb,
-.searchBar-3dMhjb:hover {
-    width: 240px;
-    background: var(--background-tertiary);
-}
-.icon-3cZ1F_{height: 24px;width: 24px;color:var(--interactive-normal);}
-.iconContainer-O4O2CN{bottom: 3px;}
-.search-36MZv-{margin-left: 0px;}
+/* .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
+     filter: blur(5px);
+     transition: filter 0.5s
+ }
+ .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child):hover .colorHeaderPrimary-26Jzh- {
+     filter: blur(0px);
+ }*/
+
 /*~~~~~~~~~~~*/
+/* .profileBadgePartner-SjK6L2 {
+     background-image: url(https://cdn.discordapp.com/attachments/753471696866115677/760692516235378718/partner_badge.svg) !important;
+ }
+*/
+/*~~~~~~~~~~~*/
+ /* Compressed Search Bar */
+/* .search-2oPWTC .searchBar-3dMhjb {
+     width: 30px;
+     transition-duration: 300ms;
+ }
+ 
+ .search-2oPWTC .searchBar-3dMhjb:hover {
+     width: 200px;
+ }
+ 
+ .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {
+     width: 244px !important;
+ }
+ 
+ .search-2oPWTC .icon-38sknP {
+     cursor: pointer;
+ }
+*/
+
+ /*~~~~~~~~~~~*/
+ /*Spin like an album cover*/
+ /*.powercord-spotify .avatarWrapper-2yR4wp {
+   
+     animation-name: spin;
+     animation-duration: 4000ms;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+ 
+ @keyframes spin {
+     from {
+         transform:rotate(0deg);
+     }
+     to {
+         transform:rotate(360deg);
+     }
+ }*/
+
+/*~~~~~~~~~~~*/
+/* .ping-2NgC8E {
+     transform: scale(1.7);
+     margin-left: 5px;
+     margin-top: 11px;
+     margin-bottom: 0;
+     height: 20px;
+ }
+ 
+ .channel-1TmDQ6 {
+     margin-left: 30px;
+     margin-top: -9px;
+ }
+ 
+ .rtcConnectionStatusConnected-VRZDjy {
+     margin-left: 5px;
+ }*/
+ 
+/*~~~~~~~~~~~*/
+ /*Profile Modal*/
+/*  .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+    z-index: 1;
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
+ }
+ 
+ 
+ .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+    z-index: 1;
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
+ }
+*/
