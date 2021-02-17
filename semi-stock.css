@@ -68,7 +68,6 @@ color: #7289DA;
   
 }
 
-
 .jumpToPresentBar-G1R9s6 {/* Blurred Grey Jump to Present Bar */
   background-color: rgba(0,0,0,0.2);
   backdrop-filter: blur(5px);
@@ -128,10 +127,8 @@ color: #ffffff;
   width: 90px;
 }
 
-
  .wrapper-1Rf91z::after { /* Add a Server tab background hider */
   display:none;}
-
 
 .membersWrap-2h-GB4{ /* Move userlist to higher*/
   margin-top: -53px !important;
@@ -159,9 +156,6 @@ color: #ffffff;
   margin-top: 14px;
  transform: rotate(90deg);  
 }
-
-
-
 
  /*WORK ON ME*/
 
