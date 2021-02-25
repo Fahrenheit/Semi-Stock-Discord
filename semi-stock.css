@@ -65,7 +65,13 @@ color: #7289DA;
   background-color: var(--background-secondary);;
   border-radius: 25px;
   padding: 5px;
-  
+}
+
+.searchBar-3dMhjb { /* Rounds tiny search bar */
+  border-radius: 25px;
+  padding-left: 5px;
+  padding-right: 7px;
+  padding-bottom: 2px;
 }
 
 .jumpToPresentBar-G1R9s6 {/* Blurred Grey Jump to Present Bar */
@@ -161,12 +167,6 @@ color: #ffffff;
 
 /*.scroller-2TZvBN {
   background-color: #ffffff;
-}*/
-
-/* Rounds tiny search bar */
-
-/*.searchBar-3dMhjb{
-  border-radius: 6px;
 }*/
 
 /* Optional, change powercord music background to match bottom bar*/ 
