@@ -159,15 +159,13 @@ color: #7289DA;
  transform: rotate(90deg);  
 }
 
-/*.platform-osx .wrapper-1Rf91z:hover, .guilds-1SWlCJ:hover{
+html.platform-osx #app-mount .base-3dtUhz {
+  top: calc(var(--server-container) + 32px) !important;
+}
+
+.platform-osx .wrapper-1Rf91z:hover, .guilds-1SWlCJ:hover{
  z-index: 3001;
- margin-left: 20px;
- padding-left; 10px;
- margin-top: 30.8px;
- padding-left: -25px;
- position: relative;
-  background-color: rgba(0,0,0,0.0);
-}*/
+}
 
 /*.powercord-spotify { /* Optional, change powercord music background to match bottom bar*/ 
 /*  background-color: var(--background-tertiary);
