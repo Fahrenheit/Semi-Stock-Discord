@@ -5,4 +5,4 @@
 
  Use this with [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) by [GibbuPCStuff](https://github.com/GibbuPCStuff/) and [Bottom Bar](https://github.com/luckfire/bottombar) by [LuckFire](https://github.com/luckfire/bottombar)
 
- I can promise you this will be broken anc look awful if you don't use those themes with this as it was built with these two in mind.
+ I can promise you this will be broken and look awful if you don't use those themes with this as it was built with these two in mind.
