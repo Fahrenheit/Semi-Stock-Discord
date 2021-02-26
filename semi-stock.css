@@ -427,7 +427,6 @@ color: #7289DA;
 
 /*~~~~~~~~~~~*/
 /* Makes roles look like how they do on mobile - Thanks LuckFire for the CSS*/
-
 .role-2irmRk {
  background-color: var(--background-tertiary);
  border-radius: 4px;
@@ -462,7 +461,7 @@ color: #7289DA;
 
 
 /*~~~~~~~~~~~*/
-/* Cleaner Search Tab */
+/* Cleaner Search Tab - Courtesy of Doggybootsy#1333 */
 .search-36MZv- {order: 1;}
 .searchBar-3dMhjb {
     width: 28px;
