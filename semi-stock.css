@@ -490,32 +490,6 @@ color: #ffffff;
 .icon-3cZ1F_{height: 24px;width: 24px;color:var(--interactive-normal);}
 .iconContainer-O4O2CN{bottom: 3px;}
 .search-36MZv-{margin-left: 0px;}
-/*~~~~~~~~~~~*/
-/**
-
-/*~~~~~~~~~~~*/
- /*.titleBar-AC4pGV>*:nth-child(2) {
- background-color: #0C0C0C;
- transition: background-color 1s ease-out;
- }
- .titleBar-AC4pGV>*:nth-child(3) {
- background-color: #0C0C0C;
- transition: background-color 1s ease-out;
- }
- .titleBar-AC4pGV>*:nth-child(4) {
- background-color: #0C0C0C;
- transition: background-color 1s ease-out;
- }
- .titleBar-AC4pGV>*:nth-child(2):hover {
- background-color: #AA2832;
- }
- .titleBar-AC4pGV>*:nth-child(3):hover {
- background-color: #056295;
- }
- .titleBar-AC4pGV>*:nth-child(4):hover {
- background-color: #FDB100;
- }
- */
 
 /*~~~~~~~~~~~*/
 /* Message bubbles (enable if you want) */
@@ -545,86 +519,6 @@ color: #ffffff;
 
 }*/
 
-/*~~~~~~~~~~~*/
-/* svg.slider-TkfMQL svg {
-   display: none;
- }
- 
- .container-3auIfb:not([style*="125"]) {
-   background-color: #7289da !important;
- }*/
-
-/*~~~~~~~~~~~*/
-/* .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
-     filter: blur(5px);
-     transition: filter 0.5s
- }
- .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child):hover .colorHeaderPrimary-26Jzh- {
-     filter: blur(0px);
- }*/
-
-/*~~~~~~~~~~~*/
-/* .profileBadgePartner-SjK6L2 {
-     background-image: url(https://cdn.discordapp.com/attachments/753471696866115677/760692516235378718/partner_badge.svg) !important;
- }
-*/
-/*~~~~~~~~~~~*/
- /* Compressed Search Bar */
-/* .search-2oPWTC .searchBar-3dMhjb {
-     width: 30px;
-     transition-duration: 300ms;
- }
- 
- .search-2oPWTC .searchBar-3dMhjb:hover {
-     width: 200px;
- }
- 
- .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {
-     width: 244px !important;
- }
- 
- .search-2oPWTC .icon-38sknP {
-     cursor: pointer;
- }
-*/
-
- /*~~~~~~~~~~~*/
- /*Spin like an album cover*/
- /*.powercord-spotify .avatarWrapper-2yR4wp {
-   
-     animation-name: spin;
-     animation-duration: 4000ms;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
- }
- 
- @keyframes spin {
-     from {
-         transform:rotate(0deg);
-     }
-     to {
-         transform:rotate(360deg);
-     }
- }*/
-
-/*~~~~~~~~~~~*/
-/* .ping-2NgC8E {
-     transform: scale(1.7);
-     margin-left: 5px;
-     margin-top: 11px;
-     margin-bottom: 0;
-     height: 20px;
- }
- 
- .channel-1TmDQ6 {
-     margin-left: 30px;
-     margin-top: -9px;
- }
- 
- .rtcConnectionStatusConnected-VRZDjy {
-     margin-left: 5px;
- }*/
- 
 /*~~~~~~~~~~~*/
  /*Profile Modal*/
 /*  .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
