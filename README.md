@@ -1,5 +1,5 @@
 # Semi Stock Discord
-A theme I've put together with minor tweaks and some snippets to personalize my experience. It unintentionally seems to mimick the iOS Discord style.
+A theme I've put together with minor tweaks and some snippets to personalize my experience. It unintentionally seems to mimic the iOS Discord style.
  
 ![](https://raw.githubusercontent.com/Fahrenheit/Semi-Stock-Discord/main/Preview%201.png)
 
