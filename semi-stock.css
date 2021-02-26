@@ -28,6 +28,7 @@ color: #7289DA;
 .fas, .fa-backward, .fa-fw, .fa-heart:before, .fa-sync:before, .fa-undo:before { /*Spotify controls WIP*/
   color: #7289DA ;
   }
+
 .spotify-seek-bar-progress { /*Spotify progress bar color*/
   background-color: #7289DA !important;
   }
@@ -129,7 +130,8 @@ color: #7289DA;
 }
 
  .wrapper-1Rf91z::after { /* Add a Server tab background hider */
-  display:none;}
+  display:none;
+}
 
 .membersWrap-2h-GB4{ /* Move userlist to higher*/
   margin-top: -53px !important;
@@ -140,7 +142,7 @@ color: #7289DA;
   display: none;
 }
 
- /*~~~~~~MODIFY macOS TITLE BAR FOR HORIZONTAL SERVER LIST~~~~~*/
+/*~~~~~~MODIFY macOS TITLE BAR FOR HORIZONTAL SERVER LIST~~~~~*/
 
 .platform-osx .app-1q1i1E {
   margin-top: -31px;
@@ -148,7 +150,6 @@ color: #7289DA;
 }
 
 .platform-osx .wrapper-1Rf91z {
- z-index: 3001;
  margin-left: 20px;
 }
 
@@ -158,10 +159,19 @@ color: #7289DA;
  transform: rotate(90deg);  
 }
 
+/*.platform-osx .wrapper-1Rf91z:hover, .guilds-1SWlCJ:hover{
+ z-index: 3001;
+ margin-left: 20px;
+ padding-left; 10px;
+ margin-top: 30.8px;
+ padding-left: -25px;
+ position: relative;
+  background-color: rgba(0,0,0,0.0);
+}*/
+
 /*.powercord-spotify { /* Optional, change powercord music background to match bottom bar*/ 
 /*  background-color: var(--background-tertiary);
 }*/
-
 
 /*~~~~~~CSS SNIPPETS BY OTHER USERS THAT I'VE MODIFIED~~~~~*/
 
@@ -458,7 +468,6 @@ color: #7289DA;
 .searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs {
   border-radius: 15px 0px 0px 0px;
 }
-
 
 /*~~~~~~~~~~~*/
 /* Cleaner Search Tab - Courtesy of Doggybootsy#1333 */
