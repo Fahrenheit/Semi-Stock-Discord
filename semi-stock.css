@@ -163,7 +163,7 @@ html.platform-osx #app-mount .base-3dtUhz {
   top: calc(var(--server-container) + 32px) !important;
 }
 
-.platform-osx .wrapper-1Rf91z:hover, .guilds-1SWlCJ:hover{
+.platform-osx .wrapper-1Rf91z, .guilds-1SWlCJ{
  z-index: 3001;
 }
 
