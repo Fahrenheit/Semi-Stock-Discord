@@ -15,7 +15,7 @@ Use this with [HorizontalServerList](https://github.com/DiscordStyles/Horizontal
 
 ### Powercord
 
-1. clone the repo `cd powercord/src/powercord/themes && git clone https://github.com/Fahrenheit/Semi-Stock-Discord && git clone https://github.com/DiscordStyles/HorizontalServerList && https://github.com/luckfire/bottombar` 
+1. clone the repo `cd powercord/src/powercord/themes && git clone https://github.com/Fahrenheit/Semi-Stock-Discord && git clone https://github.com/DiscordStyles/HorizontalServerList && git clone https://github.com/luckfire/bottombar` 
 2. Install [Theme Toggler](https://github.com/redstonekasi/theme-toggler) and enable all 3 themes.
 
 **I can promise you this will be broken and look awful if you don't use those themes with this as it was built with these two in mind.**
