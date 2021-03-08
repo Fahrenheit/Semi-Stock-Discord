@@ -1,4 +1,28 @@
- /*~~~~~~Blurple Additions~~~~~*/
+/* Optional Discord logo */
+
+/*
+.platform-win .wordmarkWindows-1v0lYD{ 
+  margin-top: 1170px;
+  margin-left: -4px;
+}
+*/
+
+/*
+.platform-win .wordmarkWindows-1v0lYD{
+  margin-top: 1234px;
+  margin-left: -4px;
+}
+*/
+
+/* Optional, change powercord music background to match bottom bar */ 
+
+/*
+.powercord-spotify { 
+ background-color: var(--background-tertiary);
+}
+*/
+
+/*~~~~~~Blurple Additions~~~~~*/
 
 .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
 .numberBadge-2s8kKX, /* Noti amount */
@@ -61,7 +85,7 @@ color: #7289DA;
 }
 
 .toolbar-1t6TWx { /* Add a border around the toolbar*/
-  background-color: var(--background-secondary);;
+  background-color: var(--background-secondary);
   border-radius: 25px;
   padding: 5px;
 }
@@ -142,7 +166,36 @@ color: #7289DA;
   display: none;
 }
 
-/*~~~~~~MODIFY macOS TITLE BAR FOR HORIZONTAL SERVER LIST~~~~~*/
+ /* Bottom bar tweaked */
+ .form-2fGMdU {
+  z-index: 1;
+  width: calc(100vw - 275px);
+}
+
+/*Move the Windows window controls (Thank you to Doggybootsy#1333 for making this CSS)~~~~~*/
+
+.platform-win .typeWindows-1za-n7{
+  position: fixed;
+  right: 0px;
+  height:100px;
+  background:var(--secondary-background-alt) !important; margin:0px;
+}
+
+.platform-win .winButton-iRh8-Z{
+  top:71px;
+  right:65px;
+  margin:2px;
+}
+
+.platform-win .typeWindows-1za-n7 {
+  margin:0px !important
+}
+
+.platform-win .toolbar-1t6TWx { 
+  padding-right: 95px;
+}
+
+/*~~~~~~MODIFY macOS TITLE BAR FOR HORIZONTAL SERVER LIST (Hacky implementation~~~~~*/
 
 .platform-osx .app-1q1i1E {
   margin-top: -31px;
@@ -153,7 +206,7 @@ color: #7289DA;
  margin-left: 20px;
 }
 
-.macButtons-2MuSAC{
+.platform-osx .macButtons-2MuSAC{
   margin-left: -22px;
   margin-top: 14px;
  transform: rotate(90deg);  
@@ -167,18 +220,101 @@ html.platform-osx #app-mount .base-3dtUhz {
  z-index: 3001;
 }
 
-/*.powercord-spotify { /* Optional, change powercord music background to match bottom bar*/ 
-/*  background-color: var(--background-tertiary);
-}*/
-
 /*~~~~~~CSS SNIPPETS BY OTHER USERS THAT I'VE MODIFIED~~~~~*/
-
- /* Bottom bar tweaked */
- .form-2fGMdU {
-   z-index: 1;
-   width: calc(100vw - 275px);
- }
  
+/*~~~~~~~~~~~*/
+ /* Cool Member List */
+ :root {
+  --hover-animation-speed: 0.48s;
+  --seperator-color: var(--background-accent);
+}
+
+.membersWrap-2h-GB4 {
+  min-width: unset;
+  width: 65px;
+  justify-content: right;
+}
+
+.membersWrap-2h-GB4 {
+  min-width: unset;
+  width: 65px;
+  justify-content: right;
+}
+
+.members-1998pB {
+  transition: transform var(--hover-animation-speed);
+}
+
+.platform-win  .members-1998pB {
+  transition: transform var(--hover-animation-speed);
+         padding-top: 25px;  
+}
+
+.membersWrap-2h-GB4:hover .members-1998pB {
+ 
+  transform: translateX(-190px);
+}
+
+.membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
+  content: '';
+  width: 30px;
+  height: 2px;
+  border-radius: 0px;
+  background: unset;
+  background-color: var(--seperator-color);
+  position: absolute;
+  left: -36px;
+  top: 29px;
+  margin-left: 0px;
+}
+
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+  background-color: unset;
+  margin-left: 0px;
+  transition: margin-left var(--hover-animation-speed);
+}
+
+.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+  margin-left: 8px;
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+  transform: translateX(-5px);
+}
+
+.membersWrap-2h-GB4 .membersGroup-v9BXpm {
+  cursor: default;
+  transform: translateX(45px);
+  transition: transform var(--hover-animation-speed);
+  overflow: visible;
+}
+
+.members-1998pB {
+border-radius: 15px 0px 0px 0px !important;
+border-left: 10px;
+}
+
+.membersWrap-2h-GB4, .members-1998pB {
+left: 6px;
+margin-right: -5px
+}
+
+.chat-3bRxxu {
+background: var(--background-tertiary);
+}
+
+.chatContent-a9vAAp {
+background-color: var(--background-primary);
+left: 6px;
+margin-left: -5px
+}
+
+.toolbar-1t6TWx {
+background-color: var(--background-secondary);
+border-radius: 25px;
+padding: 5px;
+}
+
 /*~~~~~~~~~~~*/
  .connectedAccount-36nQx7 {
      display:flex;
@@ -332,79 +468,6 @@ html.platform-osx #app-mount .base-3dtUhz {
  img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
  img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] { 
    filter: invert(1); 
- }
-
-/*~~~~~~~~~~~*/
- /* Cool Member List */
- :root {
-     --hover-animation-speed: 0.48s;
-     --seperator-color: var(--background-accent);
-  }
-  
-  .membersWrap-2h-GB4 {
-     min-width: unset;
-     width: 65px;
-     justify-content: right;
-  }
-  
-  .members-1998pB {
-     transition: transform var(--hover-animation-speed);
-  }
-  
-  .membersWrap-2h-GB4:hover .members-1998pB {
-     transform: translateX(-190px);
-  }
-  
-  .membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
-     content: '';
-     width: 30px;
-     height: 2px;
-     border-radius: 0px;
-     background: unset;
-     background-color: var(--seperator-color);
-     position: absolute;
-     left: -36px;
-     top: 29px;
-     margin-left: 0px;
-  }
-  
-  .membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
-     background-color: unset;
-     margin-left: 0px;
-     transition: margin-left var(--hover-animation-speed);
-  }
-  
-  .membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
-     margin-left: 8px;
-  }
-  
-  .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-     transform: translateX(-5px);
-  }
-  
-  .membersWrap-2h-GB4 .membersGroup-v9BXpm {
-     cursor: default;
-     transform: translateX(45px);
-     transition: transform var(--hover-animation-speed);
-     overflow: visible;
-  }
- 
- .members-1998pB {
-   border-radius: 15px 0px 0px 0px !important;
-   border-left: 10px;
- }
- .membersWrap-2h-GB4, .members-1998pB {
-   left: 6px;
-   margin-right: -5px
- }
- .chat-3bRxxu {
-   background: var(--background-tertiary);
- }
- .chatContent-a9vAAp {
-   background-color: var(--background-primary);
-   border-radius: 0 15px 0 0 !important;
-   left: 25px;
-   margin-left: -25px
  }
 
 /*~~~~~~~~~~~*/
