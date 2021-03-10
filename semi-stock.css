@@ -306,7 +306,7 @@ background: var(--background-tertiary);
 .chatContent-a9vAAp {
 background-color: var(--background-primary);
 left: 6px;
-margin-left: -5px
+margin-left: -6px
 }
 
 .toolbar-1t6TWx {
@@ -526,9 +526,9 @@ padding: 5px;
 /*~~~~~~~~~~~*/
 /* Seach header curve */
 
-.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs {
+/*.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs {
   border-radius: 15px 0px 0px 0px;
-}
+}*/
 
 /*~~~~~~~~~~~*/
 /* Cleaner Search Tab - Courtesy of Doggybootsy#1333 */
