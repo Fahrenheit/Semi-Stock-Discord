@@ -1,7 +1,10 @@
 # Semi Stock Discord
 A theme I've put together with minor tweaks and some snippets to personalize my experience. It unintentionally seems to mimic the iOS Discord style.
  
+ ### macOS Preview
 ![](https://raw.githubusercontent.com/Fahrenheit/Semi-Stock-Discord/main/Preview%201.png)
+
+### Windows Preview
 
 This theme is mainly for macOS as I haven't really tested this on any other platform. Shoot me a message on Discord to give me any bug reports (my handle is Fahrenheight#0001). My macOS title bar modification implementation is a bit hacky so I'll fix that at some point.
 
