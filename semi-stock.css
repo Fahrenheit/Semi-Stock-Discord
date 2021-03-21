@@ -172,6 +172,11 @@ color: #7289DA;
   width: calc(100vw - 275px);
 }
 
+ /* Powerclock Support https://github.com/BenSegal855/powerclock */
+.powerclock {
+  transform: rotate(90deg);
+  padding: 15px;}
+
 /*Move the Windows window controls (Thank you to Doggybootsy#1333 for making this CSS)~~~~~*/
 
 .platform-win .typeWindows-1za-n7{
