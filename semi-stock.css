@@ -1,43 +1,43 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~Windows only optional Discord logo~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/* <- Delete this whole line enable the logo on the top of the bottom bar ✂
+/*  --> Delete this whole line enable the logo on the top of the bottom bar ✂ <--
 .platform-win .wordmarkWindows-1v0lYD{ 
   margin-top: 1170px;
   margin-left: -4px;
 }
-Delete this whole line enable the logo on the top of the bottom bar ✂ */
+--> Delete this whole line enable the logo on the top of the bottom bar ✂ <-- */
 
 
-/* Delete this whole line enable the logo down below the bottom bar ✂
+/* --> Delete this whole line enable the logo down below the bottom bar ✂ <--
 .platform-win .wordmarkWindows-1v0lYD{
   margin-top: 1234px;
   margin-left: -4px;
 }
-Delete this whole line enable the logo down below the bottom bar ✂ */
+--> Delete this whole line enable the logo down below the bottom bar ✂ <-- */
 
 
 /*~~~~~~~~~~Optional, change powercord music background to match bottom bar~~~~~~~~~~~*/ 
 
-/* <- Delete this whole line enable ✂
+/* --> Delete this whole line enable ✂ <--
 .powercord-spotify { 
  background-color: var(--background-tertiary);
 }
-Delete this whole line enable ✂ */ 
+--> Delete this whole line enable ✂ <-- */ 
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Optional Burple Theming~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/* <- Delete this whole line enable ✂
+/* --> Delete this whole line enable ✂ <--
 .statusWithPopout-3ZfFol, .theme-dark .secured-1Yihly, .isEnabled-24g9qA{color: #7289DA !important;
 }
 .container-3auIfb, .uid_34136, .colorGreen-29iAKY{background-color: #7289DA !important;
 } 
-Delete this whole line enable ✂ */
+--> Delete this whole line enable ✂ <-- */
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Optional Message bubbles~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/* <- Delete this whole line enable ✂
+/* --> Delete this whole line enable ✂ <--
 .message-2qnXI6 {
  background-color: rgba(0,0,0,0.1);
  border-radius: 10px;
@@ -62,11 +62,11 @@ Delete this whole line enable ✂ */
  margin-top: 30px;
 
 }
-Delete this whole line enable ✂ */
+--> Delete this whole line enable ✂ <-- */
 
  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Optional Profile Modal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
- /* <- Delete this whole line enable ✂
+ /* --> Delete this whole line enable ✂ <--
 .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
   z-index: 1;
   background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
@@ -77,7 +77,7 @@ Delete this whole line enable ✂ */
   z-index: 1;
   background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
 }
-Delete this whole line enable ✂ */
+--> Delete this whole line enable ✂ <-- */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Blurple Additions~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 

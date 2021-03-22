@@ -27,3 +27,6 @@ Use this with [HorizontalServerList](https://github.com/DiscordStyles/Horizontal
 *All credit goes to them for their respective themes. I just built upon them and did some slight modifications here and there. There are other credit mentions within the CSS file for specific small code snippets.*
 
 **If I have forgotten you, please dm me and I'll fix that.**
+
+## Patch Notes
+**3/22/22** I have fixed the bug that would cause group DMs to disappear.
