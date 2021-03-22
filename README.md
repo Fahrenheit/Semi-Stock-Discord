@@ -10,6 +10,7 @@ Use this with [HorizontalServerList](https://github.com/DiscordStyles/Horizontal
 ### Powercord
 
 1. Clone the theme repositories with this single command `cd powercord/src/powercord/themes && git clone https://github.com/Fahrenheit/Semi-Stock-Discord && git clone https://github.com/DiscordStyles/HorizontalServerList && git clone https://github.com/luckfire/bottombar` 
+ *or* install each one by themselves after using `cd powercord/src/powercord/themes` then `git clone https://github.com/Fahrenheit/Semi-Stock-Discord` then `git clone https://github.com/DiscordStyles/HorizontalServerList` and finally `git clone https://github.com/luckfire/bottombar` (Restart your client after)
 2. Install [Theme Toggler](https://github.com/redstonekasi/theme-toggler) and enable all 3 themes.
 3. *Optional* There are a few optional minor tweaks available if you edit the `semi-stock.css` file. Delete the lines instructed to enable the code. For example you can add message bubbles to the theme or add back the Discord logo on Windows.
 
