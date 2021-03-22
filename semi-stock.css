@@ -81,6 +81,10 @@ color: #7289DA;
   border-radius: 0px 4px 4px 0;
  }
 
+.warningIcon-3rQ5yJ { /* Blurple warning icon for vc */
+  color: #7289DA !important;
+}
+
  /*~~~~~~Bottombar matching CSS~~~~~*/
 
 .notice-3bPHh-, .colorDefault-22HBa0{ /* Voice disconnected popup theming */
@@ -172,6 +176,9 @@ color: #7289DA;
 .content-yTz4x3::before{
   display: none;
 }
+
+.pictureInPicture-3VocJq{ /* Fix picture in picture */
+  z-index: 10001;}
 
  /* Bottom bar tweaked */
  .form-2fGMdU {
