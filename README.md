@@ -31,8 +31,8 @@ Use this with [HorizontalServerList](https://github.com/DiscordStyles/Horizontal
 ## Patch Notes
 **3/22/22** I have fixed the bug that would cause group DMs to disappear.
 
-If you're having issues installing all 3 parts to the theme, install each one by themselves by using `cd powercord/src/powercord/themes` 
-then `git clone https://github.com/Fahrenheit/Semi-Stock-Discord` 
-then `git clone https://github.com/DiscordStyles/HorizontalServerList`
-and finally `git clone https://github.com/luckfire/bottombar` 
+If you're having issues installing all 3 parts to the theme, install each one by themselves by using `cd powercord/src/powercord/themes`,
+then `git clone https://github.com/Fahrenheit/Semi-Stock-Discord`,
+then `git clone https://github.com/DiscordStyles/HorizontalServerList`,
+and finally `git clone https://github.com/luckfire/bottombar`.
 (Restart your client after)
