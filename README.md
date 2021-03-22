@@ -1,7 +1,7 @@
 # Semi Stock Discord
 A theme I've put together with minor tweaks and some snippets to personalize my experience. It unintentionally seems to mimic the iOS Discord style.
  
- This theme is mainly built for macOS, however I have added experimental Windows support. My macOS title bar modification implementation is a bit hacky so I'll fix that at some point.The Windows window controls may have some issues so please report them if you find any.
+This theme is mainly built for macOS, however I have added experimental Windows support. My macOS title bar modification implementation is a bit hacky so I'll fix that at some point.The Windows window controls may have some issues so please report them if you find any.
 **If you have any platform specific issues please report them to me (My handle is Fahrenheight#0001.**
 
 Use this with [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) by [GibbuPCStuff](https://github.com/GibbuPCStuff/) and [Bottom Bar](https://github.com/luckfire/bottombar) by [LuckFire](https://github.com/luckfire/)
