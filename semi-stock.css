@@ -1,35 +1,85 @@
-/* Optional Discord logo */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~Windows only optional Discord logo~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/*
+/* <- Delete this whole line enable the logo on the top of the bottom bar ✂
 .platform-win .wordmarkWindows-1v0lYD{ 
   margin-top: 1170px;
   margin-left: -4px;
 }
-*/
+Delete this whole line enable the logo on the top of the bottom bar ✂ */
 
-/*
+
+/* Delete this whole line enable the logo down below the bottom bar ✂
 .platform-win .wordmarkWindows-1v0lYD{
   margin-top: 1234px;
   margin-left: -4px;
 }
-*/
+Delete this whole line enable the logo down below the bottom bar ✂ */
 
-/* Optional, change powercord music background to match bottom bar */ 
 
-/*
+/*~~~~~~~~~~Optional, change powercord music background to match bottom bar~~~~~~~~~~~*/ 
+
+/* <- Delete this whole line enable ✂
 .powercord-spotify { 
  background-color: var(--background-tertiary);
 }
-*/
+Delete this whole line enable ✂ */ 
 
-/* Optional Burple Theming */
-/*.statusWithPopout-3ZfFol, .theme-dark .secured-1Yihly, .isEnabled-24g9qA{color: #7289DA !important;
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Optional Burple Theming~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* <- Delete this whole line enable ✂
+.statusWithPopout-3ZfFol, .theme-dark .secured-1Yihly, .isEnabled-24g9qA{color: #7289DA !important;
+}
+.container-3auIfb, .uid_34136, .colorGreen-29iAKY{background-color: #7289DA !important;
+} 
+Delete this whole line enable ✂ */
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Optional Message bubbles~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* <- Delete this whole line enable ✂
+.message-2qnXI6 {
+ background-color: rgba(0,0,0,0.1);
+ border-radius: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+
+}
+.message-2qnXI6:hover {
+ background-color: rgba(0,0,0,0.0);
+}
+.message-2qnXI6:not(.groupStart-23k01U) {
+ clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 1px 4px, 2px 5px, 3px 6px, 4px 7px, 8px 8px, calc(100% - 8px) 8px, calc(100% - 4px) 7px, calc(100% - 3px) 6px, calc(100% - 2px) 5px, calc(100% - 1px) 4px);
+ border-radius: 0 0 8px 8px;
+ margin-top: -8px;
+
+}
+.contents-2mQqc9 {
+ margin-top: 8px;
+
+}
+.message-2qnXI6:not(.groupStart-23k01U) .buttonContainer-DHceWr {
+ margin-top: 30px;
+
+}
+Delete this whole line enable ✂ */
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Optional Profile Modal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+ /* <- Delete this whole line enable ✂
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+  z-index: 1;
+  background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
 }
 
-.container-3auIfb, .uid_34136, .colorGreen-29iAKY{background-color: #7289DA !important;
-} */
 
-/*~~~~~~Blurple Additions~~~~~*/
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+  z-index: 1;
+  background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
+}
+Delete this whole line enable ✂ */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Blurple Additions~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
 .numberBadge-2s8kKX, /* Noti amount */
@@ -187,7 +237,7 @@ color: #7289DA;
   width: calc(100vw - 275px);
 }
 
- /* Powerclock Support https://github.com/BenSegal855/powerclock */
+/* Powerclock Support https://github.com/BenSegal855/powerclock */
 .powerclock {
   transform: rotate(90deg);
   padding: 15px;}
@@ -215,7 +265,7 @@ color: #7289DA;
   padding-right: 95px;
 }
 
-/*~~~~~~MODIFY macOS TITLE BAR FOR HORIZONTAL SERVER LIST (Hacky implementation~~~~~*/
+/*~~~~~~~MODIFY macOS TITLE BAR FOR HORIZONTAL SERVER LIST (Hacky implementation)~~~~~*/
 
 .platform-osx .app-1q1i1E {
   margin-top: -31px;
@@ -240,7 +290,7 @@ html.platform-osx #app-mount .base-3dtUhz {
  z-index: 3001;
 }
 
-/*~~~~~~CSS SNIPPETS BY OTHER USERS THAT I'VE MODIFIED~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~CSS SNIPPETS BY OTHER USERS THAT I'VE MODIFIED~~~~~~~~~~~~~~~~~~~*/
  
 /*~~~~~~~~~~~*/
  /* Cool Member List */
@@ -507,7 +557,6 @@ padding: 5px;
  .statusItem-33LqPf > .customText-tY5LJn,
  .statusItem-33LqPf > .clearStatusIcon-3-MDNF,
  .tutorialContainer-SGrQ1h + div {
- 
      display: none;
  }
 
@@ -534,16 +583,9 @@ padding: 5px;
 /*~~~~~~~~~~~*/
 /* Rounded context menu (Courtesy of wathhr#1459) */
 
-​.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 15px; }
+.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 15px; }
 .submenu-2-ysNh.menu-3sdvDG { border-radius: 15px; }
 .colorDefault-2K3EoJ { border-radius: 15px; }
-
-/*~~~~~~~~~~~*/
-/* Seach header curve */
-
-/*.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs {
-  border-radius: 15px 0px 0px 0px;
-}*/
 
 /*~~~~~~~~~~~*/
 /* Cleaner Search Tab - Courtesy of Doggybootsy#1333 */
@@ -565,43 +607,8 @@ padding: 5px;
 .search-36MZv-{margin-left: 0px;}
 
 /*~~~~~~~~~~~*/
-/* Message bubbles (enable if you want) */
-/*
-.message-2qnXI6 {
- background-color: rgba(0,0,0,0.1);
- border-radius: 10px;
- margin-left: 10px;
- margin-right: 10px;
+/* Seach header curve */
 
-}
-.message-2qnXI6:hover {
- background-color: rgba(0,0,0,0.0);
-}
-.message-2qnXI6:not(.groupStart-23k01U) {
- clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 1px 4px, 2px 5px, 3px 6px, 4px 7px, 8px 8px, calc(100% - 8px) 8px, calc(100% - 4px) 7px, calc(100% - 3px) 6px, calc(100% - 2px) 5px, calc(100% - 1px) 4px);
- border-radius: 0 0 8px 8px;
- margin-top: -8px;
-
-}
-.contents-2mQqc9 {
- margin-top: 8px;
-
-}
-.message-2qnXI6:not(.groupStart-23k01U) .buttonContainer-DHceWr {
- margin-top: 30px;
-
+/*.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs {
+  border-radius: 15px 0px 0px 0px;
 }*/
-
-/*~~~~~~~~~~~*/
- /*Profile Modal*/
-/*  .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-    z-index: 1;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
- }
- 
- 
- .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-    z-index: 1;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
- }
-*/
