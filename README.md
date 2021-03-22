@@ -9,7 +9,7 @@ Use this with [HorizontalServerList](https://github.com/DiscordStyles/Horizontal
 
 ### Powercord
 
-1. Clone the theme repositories with this single command `cd powercord/src/powercord/themes && git clone https://github.com/Fahrenheit/Semi-Stock-Discord && git clone https://github.com/DiscordStyles/HorizontalServerList && git clone https://github.com/luckfire/bottombar` 
+1. Clone the 3 theme repositories with this single command `cd powercord/src/powercord/themes && git clone https://github.com/Fahrenheit/Semi-Stock-Discord && git clone https://github.com/DiscordStyles/HorizontalServerList && git clone https://github.com/luckfire/bottombar` 
 2. Install [Theme Toggler](https://github.com/redstonekasi/theme-toggler) and enable all 3 themes.
 3. *Optional* There are a few optional minor tweaks available if you edit the `semi-stock.css` file. Delete the lines instructed to enable the code. For example you can add message bubbles to the theme or add back the Discord logo on Windows.
 
@@ -31,5 +31,8 @@ Use this with [HorizontalServerList](https://github.com/DiscordStyles/Horizontal
 ## Patch Notes
 **3/22/22** I have fixed the bug that would cause group DMs to disappear.
 
-If you're having issues installing all 3 parts to the theme, install each one by themselves by using `cd powercord/src/powercord/themes` then `git clone https://github.com/Fahrenheit/Semi-Stock-Discord` then `git clone https://github.com/DiscordStyles/HorizontalServerList` and finally `git clone https://github.com/luckfire/bottombar` 
+If you're having issues installing all 3 parts to the theme, install each one by themselves by using `cd powercord/src/powercord/themes` 
+then `git clone https://github.com/Fahrenheit/Semi-Stock-Discord` 
+then `git clone https://github.com/DiscordStyles/HorizontalServerList`
+and finally `git clone https://github.com/luckfire/bottombar` 
 (Restart your client after)
