@@ -177,8 +177,9 @@ color: #7289DA;
   display: none;
 }
 
-.pictureInPicture-3VocJq{ /* Fix picture in picture */
-  z-index: 10001;}
+/* Fix picture in picture */
+/* .pictureInPicture-3VocJq{
+  z-index: 3001;} */
 
  /* Bottom bar tweaked */
  .form-2fGMdU {
