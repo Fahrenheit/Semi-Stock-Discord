@@ -241,7 +241,7 @@ color: #7289DA;
 .powerclock {
   transform: rotate(90deg);
   padding: 15px;} 
-*/
+  */
 
 /*Move the Windows window controls (Thank you to Doggybootsy#1333 for making this CSS)~~~~~*/
 
@@ -496,9 +496,6 @@ padding: 5px;
 /*~~~~~~~~~~~*/
  .buttons-3JBrkn [aria-label="Send a gift"] { /* Fuck the gift button */
    display: none;  
- }
- #private-channels-1 {
-   display: none;
  }
 
 /*~~~~~~~~~~~*/
